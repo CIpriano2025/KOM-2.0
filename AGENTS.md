@@ -105,6 +105,58 @@ Antes de considerar concluído, faça a Retrospect. Corrija antes de entregar.
 
 ---
 
+## 🔄 Loop Engineering Mode
+
+Para tarefas complexas, o ciclo KOM opera em **Loop Mode** com controles adicionais.
+
+### Quando ativar
+
+| Cenário | Modo |
+|---|---|
+| Tarefa simples (< 3 arquivos, sem estado compartilhado) | **Single-pass** (ciclo normal) |
+| Feature complexa (5+ arquivos, múltiplas camadas) | **Loop mode** ativado |
+| Bugfix em produção | Loop mode com `max_iterations=3` |
+| Refactoring crítico | Loop mode com verificação externa obrigatória |
+
+### Regras do Loop
+
+**1. Sub-agent Separation**
+O sub-agente que EXECUTA (Fases 1-4) não verifica. A verificação (Gate da Fase 5) é delegada a um sub-agente independente invocado via `task` com `subagent_type: "general"`.
+
+**2. Ralph Technique**
+Se o Gate falhar > 2x na mesma iteração:
+1. PARE — não corrija no contexto atual
+2. DESCARTE — o contexto está contaminado
+3. RE-LEIA — apenas o Contrato (Fase 3)
+4. RE-EXECUTE — Fase 4 em contexto limpo
+5. VERIFIQUE — novo Gate com verificador independente
+
+**3. Goal Conditions**
+Cada Gate é uma condição de parada verificável. Documente o Goal como:
+
+```
+goal: "todos os testes em tests/auth passam + lint limpo"
+```
+
+**4. Circuit Breakers**
+- `max_iterations`: 5 (default), 10 (máximo absoluto)
+- `token_budget`: 200K por iteração
+- `timeout`: 30min por fase
+- Se excedido: PARE, registre em `knowledge/lessons/`, escale para humano
+
+**5. Cost Controls por Tipo**
+
+| Tipo | max_iterations | token_budget | timeout |
+|---|---|---|---|
+| Pequeno | 3 | 100K | 15min |
+| Médio | 5 | 200K | 30min |
+| Grande | 7 | 400K | 60min |
+| Crítico | 10 | 1M | 2h |
+
+Consulte `kom/08-loop-engineering.md` para o protocolo completo.
+
+---
+
 ## ⚠️ Violações
 
 Se você identificou que pulou uma fase:

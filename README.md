@@ -293,7 +293,8 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 │       ├── kom-cycle/         Dispara em novas tarefas
 │       ├── kom-radar/         Dispara antes de editar
 │       ├── kom-registry/      Dispara em decisões
-│       └── kom-retrospect/    Dispara após entregas
+│       ├── kom-retrospect/    Dispara após entregas
+│       └── kom-loop/          Controles de loop mode
 │
 ├── kom/                       Protocolo detalhado
 │   ├── 00-manifesto.md        Filosofia e princípios
@@ -303,7 +304,8 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 │   ├── 04-execucao.md         Fase 4 — Execução
 │   ├── 05-verificacao.md      Fase 5 — Verificação
 │   ├── 06-registro.md         Fase 6 — Registro
-│   └── 07-governanca.md       Auto-governança entre fases
+│   ├── 07-governanca.md       Auto-governança entre fases
+│   └── 08-loop-engineering.md Loop Engineering (ReAct, Ralph, sub-agents)
 │
 ├── knowledge/                 Base de conhecimento do projeto
 │   ├── registry/              Decisões arquiteturais (imutável)

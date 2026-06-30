@@ -46,6 +46,35 @@ Para cada arquivo alterado:
 
 ---
 
+## 🔄 External Verification (Loop Engineering)
+
+### Regra Fundamental
+
+O sub-agente que executou as Fases 1-4 está contaminado — tem viés de confirmação sobre o próprio código e decisões.
+
+A verificação DEVE ser feita por uma **entidade independente**:
+- **Opção A (recomendada):** Sub-agente invocado via `task` com `subagent_type: "general"`, recebendo apenas o Contrato (Fase 3) e o código produzido
+- **Opção B:** Instância limpa do agente (nova sessão, mesmo diretório, apenas o contrato como input)
+- **Opção C:** Revisão humana (code review)
+
+### Ralph Gate
+
+Se a verificação falhar:
+1. **NÃO** tente corrigir no mesmo contexto (viés de confirmação)
+2. Invoque a **Ralph technique** (ver `kom/08-loop-engineering.md`)
+3. O novo ciclo lê APENAS o Contrato da Fase 3, não o código anterior
+4. Re-executa em contexto limpo
+
+### Automated Pre-Checks
+
+Antes da verificação por sub-agente independente, execute:
+- [ ] Testes automatizados (unitários, integração)
+- [ ] Lint / type-check / análise estática
+- [ ] Verificação de contrato (entrada/saída/erros batem com a Fase 3?)
+- [ ] Varredura de segurança básica
+
+---
+
 ## Gate de Saída
 
 - [ ] Auto-auditoria realizada (código revisado com olhar crítico)
