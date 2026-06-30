@@ -235,12 +235,25 @@ Cada entrada no Registry contém: **contexto** → **decisão** → **alternativ
 ### 1. Adicione ao seu projeto
 
 ```
-Copie AGENTS.md para a raiz do seu projeto
+Copie a pasta inteira do KOM 2.0 para a raiz do seu projeto
 ```
 
-Seu agente de IA lerá este arquivo automaticamente ao iniciar sessão.
+Seu `AGENTS.md` será lido automaticamente pelo agente ao iniciar sessão.
 
-### 2. Consulte as referências
+### 2. 🚀 Auto-ativação (OpenCode)
+
+KOM 2.0 inclui skills OpenCode em `.opencode/skills/` que **auto-disparam** nos momentos certos:
+
+| Skill | Dispara quando |
+|---|---|
+| `kom-cycle` | Nova tarefa, feature, projeto |
+| `kom-radar` | Antes de editar qualquer arquivo |
+| `kom-registry` | Decisão arquitetural necessária |
+| `kom-retrospect` | Após concluir uma entrega |
+
+**Sem instalação extra.** O OpenCode descobre e ativa estas skills automaticamente.
+
+### 3. Consulte as referências
 
 O diretório `kom/` contém o protocolo detalhado de cada fase com:
 - Protocolo passo a passo
@@ -248,7 +261,7 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 - Anti-padrões documentados
 - Radar Check integrado
 
-### 3. Use o sistema de memória
+### 4. Use o sistema de memória
 
 | Diretório | Função | Criado por |
 |---|---|---|
@@ -256,17 +269,16 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 | `knowledge/lessons/` | Lições aprendidas | Agente |
 | `knowledge/patterns/` | Padrões identificados | Agente |
 
-### 4. Adapte ao seu agente
+### 5. Adapte a outros agentes
 
-| Agente | Arquivo de Instruções |
+| Agente | Como usar |
 |---|---|
-| **OpenCode** | `AGENTS.md` |
-| **Claude Code** | `CLAUDE.md` (renomear) |
-| **Codex CLI** | `AGENTS.md` |
-| **Gemini CLI** | `GEMINI.md` (renomear) |
-| **Cursor** | `.cursor/rules/` |
-| **Windsurf** | `.windsurf/rules/` |
-| **Cline / Roo Code** | `CLAUDE.md` (renomear) |
+| **OpenCode** | Já configurado (skills + AGENTS.md) |
+| **Claude Code** | Renomear `AGENTS.md` → `CLAUDE.md` |
+| **Codex CLI** | `AGENTS.md` (já funciona) |
+| **Gemini CLI** | Renomear `AGENTS.md` → `GEMINI.md` |
+| **Cursor** | Copiar `.opencode/skills/` → `.cursor/rules/` |
+| **Windsurf** | Copiar `.opencode/skills/` → `.windsurf/rules/` |
 
 ---
 
@@ -275,6 +287,13 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 ```
 ├── AGENTS.md                  Instruções mestras do KOM 2.0
 ├── README.md                  Esta visão geral
+│
+├── .opencode/
+│   └── skills/                Skills OpenCode (auto-ativação)
+│       ├── kom-cycle/         Dispara em novas tarefas
+│       ├── kom-radar/         Dispara antes de editar
+│       ├── kom-registry/      Dispara em decisões
+│       └── kom-retrospect/    Dispara após entregas
 │
 ├── kom/                       Protocolo detalhado
 │   ├── 00-manifesto.md        Filosofia e princípios
@@ -286,10 +305,12 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 │   ├── 06-registro.md         Fase 6 — Registro
 │   └── 07-governanca.md       Auto-governança entre fases
 │
-└── knowledge/                 Base de conhecimento do projeto
-    ├── registry/              Decisões arquiteturais (imutável)
-    ├── lessons/               Lições aprendidas (evolutivo)
-    └── patterns/              Padrões identificados (consultivo)
+├── knowledge/                 Base de conhecimento do projeto
+│   ├── registry/              Decisões arquiteturais (imutável)
+│   ├── lessons/               Lições aprendidas (evolutivo)
+│   └── patterns/              Padrões identificados (consultivo)
+│
+└── Projeto Kom 2.0/           Saída dos projetos desenvolvidos com KOM 2.0
 ```
 
 ---
