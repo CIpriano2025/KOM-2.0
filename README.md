@@ -1,10 +1,11 @@
-<p align="center">
-  <img src="https://via.placeholder.com/120x120/1a1a2e/e94560?text=KOM" alt="KOM 2.0" width="120" height="120">
-</p>
+<pre align="center">
+╔═══════════════════════════════════╗
+║           K O M   2 . 0           ║
+║  Knowledge Orchestrated Method.  ║
+╚═══════════════════════════════════╝
+</pre>
 
-<h1 align="center">KOM 2.0</h1>
-<h3 align="center">Knowledge Orchestrated Methodology</h3>
-<p align="center"><em>O primeiro protocolo de navegação para agentes de IA</em></p>
+<p align="center"><strong>O primeiro protocolo de navegação para agentes de IA</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/versão-2.0-e94560?style=flat-square" alt="Version 2.0">
