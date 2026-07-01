@@ -271,13 +271,25 @@ Já configurado. Skills em `.opencode/skills/` auto-disparem:
 > 💡 **AGENTS.md** é hoje o padrão universal da indústria (Linux Foundation Agentic AI Foundation, 28+ ferramentas, 60.000+ repositórios).  
 > A maioria dos agentes lê `AGENTS.md` nativamente — você só precisa de arquivos extras para recursos específicos de cada ferramenta.
 
-| Agente | Lê AGENTS.md? | Arquivos extras | Formato de regras |
-|---|---|---|---|
-| **Claude Code** | ✅ Nativo (fallback) | `CLAUDE.md` (features avançadas) | `.claude/rules/*.md`, `.claude/skills/`, hooks |
-| **Codex CLI** | ✅ Nativo (ideal) | `.codex/skills/SKILL.md` | `AGENTS.md` é o padrão oficial |
-| **Gemini CLI** | ❌ Não lê | `GEMINI.md` (obrigatório) | `.gemini/settings.json`, Extensions |
-| **Cursor** | ✅ Nativo | `.cursor/rules/*.mdc` (modo granular) | `.cursorrules` legado deprecated |
-| **Windsurf** | ✅ Nativo | `.windsurf/rules/` (modo granular) | `.windsurfrules` legado |
+| Agente | Lê AGENTS.md? | Arquivo/config principal |
+|---|---|---|
+| **OpenCode** | ✅ Nativo | `AGENTS.md` + `.opencode/skills/` |
+| **Codex CLI** | ✅ Nativo (criador) | `AGENTS.md` + `.codex/skills/` |
+| **Claude Code** | ✅ Nativo (fallback) | `CLAUDE.md` + `.claude/rules/` |
+| **Cursor** | ✅ Nativo | `AGENTS.md` + `.cursor/rules/*.mdc` |
+| **Windsurf** | ✅ Nativo | `AGENTS.md` + `.windsurf/rules/` |
+| **GitHub Copilot** | ✅ Nativo | `AGENTS.md` + `.github/copilot-instructions.md` |
+| **Devin** | ✅ Nativo | `AGENTS.md` + `.devin/rules/` |
+| **Aider** | ✅ Nativo | `AGENTS.md` + `.aider.rules` |
+| **Zed** | ✅ Nativo | `AGENTS.md` + `.zed/rules/` |
+| **Jules (JetBrains)** | ✅ Nativo | `AGENTS.md` |
+| **VS Code** | ✅ Via extensão | `AGENTS.md` + `.vscode/settings.json` |
+| **JetBrains Junie** | ✅ Nativo | `AGENTS.md` |
+| **Amp** | ✅ Nativo | `AGENTS.md` + `.amp/rules/` |
+| **Continue (IDE)** | ✅ Nativo | `AGENTS.md` + `.continue/settings.json` |
+| **Genie** | ✅ Nativo | `AGENTS.md` |
+| **Gemini CLI** | ❌ | `GEMINI.md` |
+| **Antigravity CLI** | ❌ | `ANTIGRAVITY.md` |
 
 **Setup recomendado para máxima compatibilidade:**
 
