@@ -1,1 +1,0 @@
-{"nodes": [{"id": "kom_retrospect", "label": "KOM Retrospect", "file_type": "concept", "source_file": ".opencode/skills/kom-retrospect/SKILL.md"}], "edges": [{"source": "kom_retrospect", "target": "knowledge_lessons", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".opencode/skills/kom-retrospect/SKILL.md"}], "hyperedges": []}

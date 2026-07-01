@@ -1,1 +1,0 @@
-{"nodes": [{"id": "kom_radar", "label": "KOM Radar", "file_type": "concept", "source_file": ".opencode/skills/kom-radar/SKILL.md"}], "edges": [{"source": "kom_radar", "target": "knowledge_registry", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".opencode/skills/kom-radar/SKILL.md"}], "hyperedges": []}

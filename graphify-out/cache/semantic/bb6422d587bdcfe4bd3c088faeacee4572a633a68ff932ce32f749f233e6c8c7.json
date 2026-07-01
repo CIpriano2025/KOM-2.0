@@ -1,1 +1,0 @@
-{"nodes": [{"id": "kom_loop_engineering", "label": "Loop Engineering", "file_type": "concept", "source_file": "kom/08-loop-engineering.md"}], "edges": [{"source": "kom_loop_engineering", "target": "kom_cycle", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "kom/08-loop-engineering.md"}], "hyperedges": []}
