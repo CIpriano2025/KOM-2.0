@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 256" width="600" height="256">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0.2" y1="0" x2="1" y2="1">
+      <offset offset="0%" stop-color="#e94560"/>
+      <offset offset="100%" stop-color="#c23152"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#ff6b81"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== LOGO MARK (left side) ===== -->
+  <g transform="translate(10, 0)">
+    <!-- Outer hexagon -->
+    <polygon points="128,8 237.6,68 237.6,188 128,248 18.4,188 18.4,68"
+             fill="url(#g1)" stroke="#e94560" stroke-width="2"/>
+    <!-- Inner hexagon -->
+    <polygon points="128,36 218.4,86 218.4,170 128,220 37.6,170 37.6,86"
+             fill="none" stroke="rgba(233,69,96,0.3)" stroke-width="1"/>
+    <!-- 6 phase dots -->
+    <circle cx="128" cy="8" r="5" fill="#e94560"/>
+    <circle cx="237.6" cy="68" r="5" fill="#e94560"/>
+    <circle cx="237.6" cy="188" r="5" fill="#e94560"/>
+    <circle cx="128" cy="248" r="5" fill="#e94560"/>
+    <circle cx="18.4" cy="68" r="5" fill="#e94560"/>
+    <circle cx="18.4" cy="188" r="5" fill="#e94560"/>
+    <!-- Stylized K -->
+    <g fill="#ffffff" opacity="0.95">
+      <rect x="102" y="82" width="10" height="92" rx="4"/>
+      <path d="M112 128 Q130 115 155 98 L155 88 Q130 105 112 118Z"/>
+      <path d="M112 128 Q130 141 155 158 L155 168 Q130 151 112 138Z"/>
+    </g>
+    <circle cx="160" cy="168" r="6" fill="url(#g3)"/>
+  </g>
+
+  <!-- ===== TEXT (right side) ===== -->
+  <g transform="translate(290, 60)">
+    <!-- KOM 2.0 -->
+    <text x="0" y="50" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="56" font-weight="800" fill="#1a1a2e" letter-spacing="4">
+      KOM
+      <tspan font-size="56" font-weight="400" fill="#e94560" letter-spacing="2"> 2.0</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="90" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="18" font-weight="600" fill="#16213e" letter-spacing="3">
+      KNOWLEDGE ORCHESTRATED METHOD
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="125" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+          font-size="14" font-weight="400" fill="#555" letter-spacing="1">
+      ~ Primeiro protocolo de navegação para agentes de IA ~
+    </text>
+  </g>
+</svg>

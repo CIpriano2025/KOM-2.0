@@ -1,40 +1,59 @@
-<pre align="center">
-╔═══════════════════════════════════╗
-║           K O M   2 . 0           ║
-║  Knowledge Orchestrated Method.  ║
-╚═══════════════════════════════════╝
-</pre>
-
-<p align="center"><strong>O primeiro protocolo de navegação para agentes de IA</strong></p>
-
 <p align="center">
-  <img src="https://img.shields.io/badge/versão-2.0-e94560?style=flat-square" alt="Version 2.0">
-  <img src="https://img.shields.io/badge/license-MIT-1a1a2e?style=flat-square" alt="MIT License">
-  <img src="https://img.shields.io/badge/agentes-OpenCode%20%7C%20Claude%20%7C%20Codex%20%7C%20Gemini%20%7C%20Cursor-16213e?style=flat-square" alt="Compatible Agents">
-  <img src="https://img.shields.io/badge/status-production-0f3460?style=flat-square" alt="Production Ready">
+  <img src="assets/banner.svg" alt="KOM 2.0 Banner" width="100%">
 </p>
 
 <br>
 
-> **KOM 2.0 não é um framework. Não é uma biblioteca. Não é um software.**  
-> É um protocolo de navegação que qualquer agente de IA pode seguir para desenvolver sistemas complexos sem perder contexto, sem repetir erros, sem alucinar APIs e sem acumular dívida técnica.
+<p align="center">
+  <a href="#-quick-start"><img src="https://img.shields.io/badge/QUICK%20START-%E2%9E%A1-0f3460?style=for-the-badge&labelColor=1a1a2e" alt="Quick Start"></a>
+  <a href="#-o-ciclo"><img src="https://img.shields.io/badge/O%20CICLO-%E2%9D%AE-16213e?style=for-the-badge&labelColor=1a1a2e" alt="O Ciclo"></a>
+  <a href="#-como-adotar"><img src="https://img.shields.io/badge/COMO%20ADOTAR-%E2%9D%AF-e94560?style=for-the-badge&labelColor=1a1a2e" alt="Como Adotar"></a>
+  <a href="#-estrutura"><img src="https://img.shields.io/badge/ESTRUTURA-%F0%9F%93%81-0f3460?style=for-the-badge&labelColor=1a1a2e" alt="Estrutura"></a>
+</p>
 
 ---
 
-## Índice
+<br>
 
-- [O Problema](#o-problema)
-- [A Revolução](#a-revolução)
-- [O Ciclo](#o-ciclo)
-- [Os Três Mecanismos](#os-três-mecanismos)
-- [As Seis Fases](#as-seis-fases)
-- [Como Adotar](#como-adotar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Licença](#licença)
+> **KOM 2.0** não é um framework. Não é uma biblioteca. Não é um software.
+> É um **protocolo de navegação** que qualquer agente de IA pode seguir para desenvolver sistemas complexos sem perder contexto, sem repetir erros e sem acumular dívida técnica.
+
+<br>
 
 ---
 
-## O Problema
+## ⚡ Quick Start
+
+<table>
+<tr>
+<td width="33%" align="center">
+<br>
+<strong>📥 1. Adicione ao projeto</strong><br><br>
+<code>git clone https://github.com/CIpriano2025/KOM-2.0.git .</code><br><br>
+<em>Copie para a raiz do seu projeto</em>
+</td>
+<td width="33%" align="center">
+<br>
+<strong>✅ 2. Verifique a instalação</strong><br><br>
+<code>powershell -ExecutionPolicy Bypass -File kom-check.ps1</code><br><br>
+<em>14 componentes testados automaticamente</em>
+</td>
+<td width="33%" align="center">
+<br>
+<strong>🚀 3. Comece a usar</strong><br><br>
+<code>"crie uma API de autenticação seguindo o KOM"</code><br><br>
+<em>O agente segue as 6 fases automaticamente</em>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="#-como-adotar"><strong>📖 Guia completo de instalação →</strong></a>
+</p>
+
+---
+
+## 🔴 O Problema
 
 Agentes de IA sabem programar. O que eles não sabem é **navegar**.
 
@@ -59,71 +78,53 @@ mindmap
       Cada sessão começa do zero
 ```
 
-Nenhuma dessas falhas é culpa do modelo. São falhas de **processo**. O modelo não tem um roteiro. KOM 2.0 é esse roteiro.
+Nenhuma dessas falhas é culpa do modelo. São falhas de **processo**. O modelo não tem um roteiro. **KOM 2.0 é esse roteiro.**
+
+<p align="center">
+  <strong>Transforme desenvolvimento com IA de <em>"prompt + esperança"</em> para <em>"navegue com propósito"</em></strong>
+</p>
 
 ---
 
-## A Revolução
-
-KOM 2.0 transforma desenvolvimento com IA de **"prompt e esperança"** para **"navegue com propósito"**.
-
-```mermaid
-flowchart LR
-    A[Prompt<br>+ Esperança] --> B{Código funciona?}
-    B -->|Sim| C[Entrega]
-    B -->|Não| A
-    style A fill:#e94560,color:#fff
-    style C fill:#1a1a2e,color:#fff
-```
-
-**Para:**
-
-```mermaid
-flowchart LR
-    A[Orientação] --> B[Arquitetura]
-    B --> C[Contrato]
-    C --> D[Execução]
-    D --> E[Verificação]
-    E --> F[Registro]
-    F -.->|próximo ciclo| A
-    style A fill:#0f3460,color:#fff
-    style B fill:#16213e,color:#fff
-    style C fill:#1a1a2e,color:#fff
-    style D fill:#0f3460,color:#fff
-    style E fill:#16213e,color:#fff
-    style F fill:#1a1a2e,color:#fff
-```
-
----
-
-## O Ciclo
+## ⬡ O Ciclo
 
 Seis fases. Cada uma com um **Gate** — uma condição obrigatória que deve ser satisfeita antes de avançar.
+
+### As Seis Fases
+
+| | Fase | Objetivo | Gate | ⏱️ |
+|---|---|---|---|---|
+| **1** | 🧭 **Orientação** | Entender propósito, domínio e restrições | Propósito + Domínio + Restrições OK | 5–15min |
+| **2** | 🏛️ **Arquitetura** | Definir limites, contratos e decisões | ADR + Contratos + Limites OK | 10–30min |
+| **3** | 📐 **Contrato** | Especificar interface, entrada, saída e erros | Contrato completo aprovado | 5–20min |
+| **4** | ⚙️ **Execução** | Implementar com validação contínua | Código + Testes + Contratos OK | 15–60min |
+| **5** | 🔍 **Verificação** | Auditar entrega e mapear impacto | Auditoria + Radar OK | 5–15min |
+| **6** | 📝 **Registro** | Persistir decisões, lições e padrões | Registry + Lessons OK | 5–10min |
 
 ```mermaid
 flowchart TD
     subgraph "Fase 1"
-        O[Orientação]
+        O[🧭 Orientação]
         G1{{Gate: Propósito + Domínio + Restrições<br>documentados e validados}}
     end
     subgraph "Fase 2"
-        A[Arquitetura]
+        A[🏛️ Arquitetura]
         G2{{Gate: ADR + Contratos + Limites<br>definidos e registrados}}
     end
     subgraph "Fase 3"
-        C[Contrato]
+        C[📐 Contrato]
         G3{{Gate: Interface + Entrada + Saída + Erros<br>+ Impacto especificados}}
     end
     subgraph "Fase 4"
-        E[Execução]
+        E[⚙️ Execução]
         G4{{Gate: Código passa nas validações +<br>Contratos cumpridos}}
     end
     subgraph "Fase 5"
-        V[Verificação]
+        V[🔍 Verificação]
         G5{{Gate: Auditoria + Radar de Impacto<br>OK}}
     end
     subgraph "Fase 6"
-        R[Registro]
+        R[📝 Registro]
         G6{{Gate: Decisões + Lições + Padrões<br>persistidos no grafo}}
     end
 
@@ -143,7 +144,7 @@ flowchart TD
     G5 -->|Aprovado| R
     G5 -->|Negado| V
     R --> G6
-    G6 -->|Aprovado| FIM((Entregue))
+    G6 -->|Aprovado| FIM((✅ Entregue))
     G6 -->|Negado| R
 
     style O fill:#0f3460,color:#fff
@@ -155,11 +156,61 @@ flowchart TD
     style FIM fill:#e94560,color:#fff
 ```
 
+> 📖 Consulte `kom/01-orientacao.md` a `kom/08-loop-engineering.md` para o protocolo detalhado de cada fase.
+
 ---
 
-## Os Três Mecanismos
+## 🔧 Os Três Mecanismos
 
 Três mecanismos permanentes operam **durante todo o ciclo**, não apenas em fases específicas.
+
+<br>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 📚 Registry
+**Memória Estrutural**
+
+| Ação | Quando |
+|---|---|
+| **Consultar** | Antes de decidir |
+| **Registrar** | Depois de decidir |
+| **Referenciar** | Sempre que afetar |
+
+*Cada entrada: contexto → decisão → alternativas → motivo → consequências*
+
+</td>
+<td width="33%" align="center">
+
+### 📡 Radar
+**Visão de Impacto**
+
+| Pergunta | Objetivo |
+|---|---|
+| O que este arquivo **faz**? | Responsabilidade |
+| Quem **depende** dele? | Impacto |
+| O que pode **quebrar**? | Regressão |
+| Quais **contratos**? | Consistência |
+| Tem decisão no **Registry**? | Arquitetura |
+
+</td>
+<td width="33%" align="center">
+
+### 🔄 Retrospect
+**Aprendizado Contínuo**
+
+| Pergunta | Objetivo |
+|---|---|
+| O que faria **diferente**? | Melhoria |
+| Decisão **subótima**? | Corrigir rota |
+| Padrão **útil** emergiu? | Capturar |
+| O que poderia ter sido **evitado**? | Prevenir |
+
+</td>
+</tr>
+</table>
 
 ```mermaid
 flowchart TD
@@ -184,184 +235,146 @@ flowchart TD
     Retrospect -.->|Fortalece| Registry
 ```
 
-### Registry — Memória Estrutural
+---
 
-| Ação | Quando |
+## 🎯 Para Quem
+
+| Você é... | KOM 2.0 ajuda com... |
 |---|---|
-| **Consultar** o Registry | Antes de qualquer decisão arquitetural |
-| **Registrar** no Registry | Depois de qualquer decisão arquitetural |
-| **Referenciar** decisões anteriores | Sempre que uma nova decisão as afetar |
-
-Cada entrada no Registry contém: **contexto** → **decisão** → **alternativas** → **motivo** → **consequências**.
-
-### Radar — Visão de Impacto
-
-| Pergunta | Por que |
-|---|---|
-| O que este arquivo faz? | Entender responsabilidade |
-| Quem importa ou depende dele? | Mapear impacto |
-| O que pode quebrar? | Prevenir regressão |
-| Quais contratos estão envolvidos? | Garantir consistência |
-| Existe decisão no Registry? | Honrar arquitetura |
-
-### Retrospect — Aprendizado Contínuo
-
-| Pergunta | Objetivo |
-|---|---|
-| O que eu faria diferente? | Identificar melhoria |
-| Alguma decisão foi subótima? | Corrigir rota |
-| Algum padrão útil emergiu? | Capturar conhecimento |
-| O que deu errado e poderia ter sido evitado? | Prevenir recorrência |
+| 👨‍💻 **Desenvolvedor solo** usando IA | Nunca mais perder contexto entre sessões |
+| 👥 **Time** que usa agentes de IA | Consistência entre membros e decisões rastreáveis |
+| 🏢 **Empresa** adotando IA no dev | Governança, rastreabilidade, dívida técnica zero |
+| 🔬 **Pesquisador** de agentes | Protocolo formal para experimentos reproduzíveis |
 
 ---
 
-## As Seis Fases
+## 📥 Como Adotar
 
-| Fase | Objetivo | Gate | Tempo Estimado |
-|---|---|---|---|
-| **1. Orientação** | Entender propósito, domínio, restrições | Propósito + Domínio + Restrições OK | 5-15 min |
-| **2. Arquitetura** | Definir limites, contratos, decisões | ADR + Contratos + Limites OK | 10-30 min |
-| **3. Contrato** | Especificar interface, entrada, saída, erros | Contrato completo aprovado | 5-20 min |
-| **4. Execução** | Implementar com validação contínua | Código + Testes + Contratos OK | 15-60 min |
-| **5. Verificação** | Auditar entrega, mapear impacto | Auditoria + Radar OK | 5-15 min |
-| **6. Registro** | Persistir decisões, lições, padrões | Registry + Lessons OK | 5-10 min |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> 📖 Consulte `kom/01-orientacao.md` a `kom/07-governanca.md` para o protocolo detalhado de cada fase.
+### 🚀 Para OpenCode (nativo)
 
----
+Já configurado. Skills em `.opencode/skills/` auto-disparem:
 
-## Como Adotar
-
-> **Pré-requisitos:** O KOM 2.0 é um protocolo — você copia a estrutura de diretórios e arquivos. Nada para instalar via npm, pip ou similar.  
-> O **Graphify** (grafo de conhecimento) é opcional e requer instalação separada — veja passo 5.
-
-### 1. Adicione ao seu projeto
-
-```
-Copie a pasta inteira do KOM 2.0 para a raiz do seu projeto
-```
-
-Seu `AGENTS.md` será lido automaticamente pelo agente ao iniciar sessão.
-
-### 2. 🚀 Auto-ativação (OpenCode)
-
-KOM 2.0 inclui skills OpenCode em `.opencode/skills/` que **auto-disparam** nos momentos certos:
-
-| Skill | Dispara quando |
+| Skill | Dispara em |
 |---|---|
-| `kom-cycle` | Nova tarefa, feature, projeto |
-| `kom-radar` | Antes de editar qualquer arquivo |
-| `kom-registry` | Decisão arquitetural necessária |
-| `kom-graphify` | Analisar codebase ou buscar contexto |
-| `kom-retrospect` | Após concluir uma entrega |
+| `kom-cycle` | Nova tarefa |
+| `kom-radar` | Antes de editar |
+| `kom-registry` | Decisão arquitetural |
+| `kom-graphify` | Buscar contexto |
+| `kom-retrospect` | Após entrega |
 
-**Sem instalação extra.** O OpenCode descobre e ativa estas skills automaticamente.
+### 🔄 Para outros agentes
 
-### 3. Consulte as referências
+| Agente | Ação |
+|---|---|
+| **Claude Code** | `AGENTS.md` → `CLAUDE.md` |
+| **Codex CLI** | Já funciona |
+| **Gemini CLI** | `AGENTS.md` → `GEMINI.md` |
+| **Cursor** | `.opencode/skills/` → `.cursor/rules/` |
+| **Windsurf** | `.opencode/skills/` → `.windsurf/rules/` |
 
-O diretório `kom/` contém o protocolo detalhado de cada fase com:
-- Protocolo passo a passo
-- Gate de saída com checklist
-- Anti-padrões documentados
-- Radar Check integrado
+</td>
+<td width="50%" valign="top">
 
-### 4. Use o sistema de memória
+### 📊 Verificação automática
 
-| Diretório | Função | Criado por |
-|---|---|---|
-| `knowledge/registry/` | Decisões arquiteturais | Agente |
-| `knowledge/lessons/` | Lições aprendidas | Agente |
-| `knowledge/patterns/` | Padrões identificados | Agente |
+Execute o `kom-check.ps1` para validar **14 componentes**:
 
-### 5. Configure o Graphify (opcional, recomendado)
+```
+powershell -ExecutionPolicy Bypass -File kom-check.ps1
+```
 
-> ⚠️ **Graphify não vem instalado.** É um pacote Python separado que você precisa instalar.  
-> Se pedir para o agente de IA instalar, ele saberá exatamente o que fazer.
+```
++--------------------------------------------------------------------+
+|              KOM 2.0 - CHECKLIST DE INSTALACAO                     |
++--------------------------------------------------------------------+
+  STATUS: INSTALACAO COMPLETA
+  PROGRESSO: [##############################] 100%
 
-Graphify constrói um grafo de conhecimento do seu codebase para consultas rápidas.
+  14 de 14 componentes funcionando
+  Skills OK | Fases OK | Registry OK | Graphify OK
+```
+
+### 🧠 Graphify (opcional, recomendado)
+
+Grafo de conhecimento do codebase para consultas rápidas:
 
 ```bash
-# Instalar (você precisa executar este comando)
 pip install graphifyy
-
-# Configurar sua API key (uma das opções abaixo)
-export GEMINI_API_KEY="sua-chave-aqui"      # Gemini (gratuito - sem cartão)
-export OPENAI_API_KEY="sua-chave-aqui"      # OpenAI
-export ANTHROPIC_API_KEY="sua-chave-aqui"   # Claude
-
-# Buildar o grafo
-graphify .
-
-# Após mudanças no código (AST-only, sem custo):
-graphify update .
+python -m graphify update .
 ```
 
-**API keys gratuitas:**
-- **Gemini:** https://aistudio.google.com/apikey (sem cartão de crédito)
-- **DeepSeek:** alternativa econômica
+> Sem API key? Modo AST-only funciona sem custo.
 
-> **Sem API key**, o `graphify update .` funciona apenas para AST de arquivos de código (zero custo).  
-> **Sem graphify instalado**, o KOM 2.0 funciona normalmente — você só perde as consultas rápidas por grafo.
-
-### 6. Adapte a outros agentes
-
-| Agente | Como usar |
-|---|---|
-| **OpenCode** | Já configurado (skills + AGENTS.md) |
-| **Claude Code** | Renomear `AGENTS.md` → `CLAUDE.md` |
-| **Codex CLI** | `AGENTS.md` (já funciona) |
-| **Gemini CLI** | Renomear `AGENTS.md` → `GEMINI.md` |
-| **Cursor** | Copiar `.opencode/skills/` → `.cursor/rules/` |
-| **Windsurf** | Copiar `.opencode/skills/` → `.windsurf/rules/` |
+</td>
+</tr>
+</table>
 
 ---
 
-## Estrutura do Projeto
+## 📁 Estrutura
 
 ```
-├── AGENTS.md                  Instruções mestras do KOM 2.0
-├── README.md                  Esta visão geral
+kom-2.0/
+├── AGENTS.md                 📋 Instruções mestras
+├── README.md                 📖 Esta documentação
+├── WELCOME.md                👋 Boas-vindas (1ª sessão)
+├── kom-check.ps1             ✅ Verificador de instalação
+│
+├── assets/                   🎨 Logos e banners
+│   ├── logo.svg
+│   ├── logo-mark.svg
+│   └── banner.svg
 │
 ├── .opencode/
-│   └── skills/                Skills OpenCode (auto-ativação)
-│       ├── kom-cycle/         Dispara em novas tarefas
-│       ├── kom-radar/         Dispara antes de editar
-│       ├── kom-registry/      Dispara em decisões
-│       ├── kom-graphify/      Integra grafo de conhecimento
-│       ├── kom-retrospect/    Dispara após entregas
-│       └── kom-loop/          Controles de loop mode
+│   └── skills/               ⚡ Auto-ativação
+│       ├── kom-cycle/        Nova tarefa
+│       ├── kom-radar/        Antes de editar
+│       ├── kom-registry/     Decisões
+│       ├── kom-graphify/     Grafo
+│       ├── kom-retrospect/   Pós-entrega
+│       └── kom-loop/         Loop mode
 │
-├── kom/                       Protocolo detalhado
-│   ├── 00-manifesto.md        Filosofia e princípios
-│   ├── 01-orientacao.md       Fase 1 — Orientação
-│   ├── 02-arquitetura.md      Fase 2 — Arquitetura
-│   ├── 03-contrato.md         Fase 3 — Contrato
-│   ├── 04-execucao.md         Fase 4 — Execução
-│   ├── 05-verificacao.md      Fase 5 — Verificação
-│   ├── 06-registro.md         Fase 6 — Registro
-│   ├── 07-governanca.md       Auto-governança entre fases
-│   └── 08-loop-engineering.md Loop Engineering (ReAct, Ralph, sub-agents)
+├── kom/                      📚 Protocolo detalhado
+│   ├── 00-manifesto.md       Filosofia
+│   ├── 01-orientacao.md      Fase 1
+│   ├── 02-arquitetura.md     Fase 2
+│   ├── 03-contrato.md        Fase 3
+│   ├── 04-execucao.md        Fase 4
+│   ├── 05-verificacao.md     Fase 5
+│   ├── 06-registro.md        Fase 6
+│   ├── 07-governanca.md      Governança
+│   └── 08-loop-engineering.md Loop mode
 │
-├── knowledge/                 Base de conhecimento do projeto
-│   ├── registry/              Decisões arquiteturais (ADR + MADR template)
-│   ├── lessons/               Lições aprendidas (evolutivo)
-│   └── patterns/              Padrões identificados (consultivo)
+├── knowledge/                🧠 Base de conhecimento
+│   ├── registry/             ADRs
+│   ├── lessons/              Lições
+│   └── patterns/             Padrões
 │
-├── graphify-out/              Grafo de conhecimento (Graphify)
-│   ├── graph.json             Grafo queryável
-│   ├── GRAPH_REPORT.md        Relatório de comunidades e god nodes
-│   └── graph.html             Visualização interativa
+└── graphify-out/             🔗 Grafo (Graphify)
 ```
 
 ---
 
-## Licença
+## 🔗 Links
+
+- [📘 Shorthand Guide (X)](https://x.com/affaanmustafa/status/2012378465664745795)
+- [📗 Longform Guide (X)](https://x.com/affaanmustafa/status/2014040193557471352)
+- [🐛 Reportar bug](https://github.com/CIpriano2025/KOM-2.0/issues)
+
+---
+
+## 📄 Licença
 
 MIT — Livre para usar, modificar e distribuir.
 
 <br>
 
 <p align="center">
+  <img src="assets/logo-mark.svg" alt="KOM 2.0" width="48"><br><br>
   <strong>KOM 2.0</strong> — A evolução da programação por IA começa aqui.<br>
   <em>2026</em>
 </p>
