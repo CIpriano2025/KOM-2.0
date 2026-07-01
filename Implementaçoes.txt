@@ -32,12 +32,34 @@ O KOM deve funcionar com qualquer IA compatível com MCP.
 
 Exemplos:
 
-* OpenCode
-* Cursor
-* Claude Code
-* Gemini CLI
-* VS Code
-* Agentes próprios
+## Agentes com suporte nativo a AGENTS.md (padrão Linux Foundation)
+
+O formato AGENTS.md é mantido pela **Linux Foundation Agentic AI Foundation** e suportado por 28+ ferramentas e 60.000+ repositórios (2026):
+
+| Agente | Lê AGENTS.md? | Arquivo principal | Formato de regras |
+|---|---|---|---|
+| **OpenCode** | ✅ Nativo | `AGENTS.md` | `.opencode/skills/SKILL.md` |
+| **Codex CLI** | ✅ Nativo (criador) | `AGENTS.md` | `.codex/skills/SKILL.md` |
+| **Claude Code** | ✅ Nativo (fallback) | `CLAUDE.md` (nativo) | `.claude/rules/*.md`, `.claude/skills/` |
+| **Cursor** | ✅ Nativo | `AGENTS.md` | `.cursor/rules/*.mdc` |
+| **Windsurf** | ✅ Nativo | `AGENTS.md` | `.windsurf/rules/` |
+| **GitHub Copilot** | ✅ Nativo | `AGENTS.md` | `.github/copilot-instructions.md` |
+| **Devin** | ✅ Nativo | `AGENTS.md` | `.devin/rules/` |
+| **Aider** | ✅ Nativo | `AGENTS.md` | `.aider.rules` |
+| **Zed** | ✅ Nativo | `AGENTS.md` | `.zed/rules/` |
+| **Jules (JetBrains)** | ✅ Nativo | `AGENTS.md` | IDE config |
+| **VS Code** | ✅ Via extensão | `AGENTS.md` | `.vscode/settings.json` |
+| **JetBrains Junie** | ✅ Nativo | `AGENTS.md` | IDE settings |
+| **Amp** | ✅ Nativo | `AGENTS.md` | `.amp/rules/` |
+| **Continue (VS Code/JetBrains)** | ✅ Nativo | `AGENTS.md` | `.continue/settings.json` |
+| **Genie** | ✅ Nativo | `AGENTS.md` | IDE config |
+
+## Agentes com formato próprio (não usam AGENTS.md)
+
+| Agente | Arquivo próprio | Notas |
+|---|---|---|
+| **Gemini CLI** | `GEMINI.md` | Google, não lê AGENTS.md |
+| **Antigravity CLI** | `ANTIGRAVITY.md` | Novo CLI da Google (sucessor do Gemini CLI) |
 
 ---
 

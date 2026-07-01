@@ -268,13 +268,31 @@ Já configurado. Skills em `.opencode/skills/` auto-disparem:
 
 ### 🔄 Para outros agentes
 
-| Agente | Ação |
-|---|---|
-| **Claude Code** | `AGENTS.md` → `CLAUDE.md` |
-| **Codex CLI** | Já funciona |
-| **Gemini CLI** | `AGENTS.md` → `GEMINI.md` |
-| **Cursor** | `.opencode/skills/` → `.cursor/rules/` |
-| **Windsurf** | `.opencode/skills/` → `.windsurf/rules/` |
+> 💡 **AGENTS.md** é hoje o padrão universal da indústria (Linux Foundation Agentic AI Foundation, 28+ ferramentas, 60.000+ repositórios).  
+> A maioria dos agentes lê `AGENTS.md` nativamente — você só precisa de arquivos extras para recursos específicos de cada ferramenta.
+
+| Agente | Lê AGENTS.md? | Arquivos extras | Formato de regras |
+|---|---|---|---|
+| **Claude Code** | ✅ Nativo (fallback) | `CLAUDE.md` (features avançadas) | `.claude/rules/*.md`, `.claude/skills/`, hooks |
+| **Codex CLI** | ✅ Nativo (ideal) | `.codex/skills/SKILL.md` | `AGENTS.md` é o padrão oficial |
+| **Gemini CLI** | ❌ Não lê | `GEMINI.md` (obrigatório) | `.gemini/settings.json`, Extensions |
+| **Cursor** | ✅ Nativo | `.cursor/rules/*.mdc` (modo granular) | `.cursorrules` legado deprecated |
+| **Windsurf** | ✅ Nativo | `.windsurf/rules/` (modo granular) | `.windsurfrules` legado |
+
+**Setup recomendado para máxima compatibilidade:**
+
+```
+projeto/
+├── AGENTS.md          ← Lido por Codex CLI, Cursor, Windsurf (e Claude como fallback)
+├── CLAUDE.md          ← Apenas se usar Claude Code (skills, hooks, rules)
+├── GEMINI.md          ← Apenas se usar Gemini CLI
+│
+├── .cursor/
+│   └── rules/         ← Apenas se usar Cursor (modo granular .mdc)
+│
+└── .windsurf/
+    └── rules/         ← Apenas se usar Windsurf (modo granular)
+```
 
 </td>
 <td width="50%" valign="top">
