@@ -26,6 +26,12 @@ Skills estão em: `.opencode/skills/kom-*/SKILL.md`
 
 ---
 
+### ⚡ Boas-vindas Automática
+
+Na **primeira sessão** em um projeto com KOM 2.0, exiba o conteúdo de `WELCOME.md` para o usuário antes de qualquer outra ação. Pergunte se ele deseja instalar o Graphify (`pip install graphifyy`) e se quer ajuda para começar.
+
+---
+
 ## 📋 Ciclo Obrigatório
 
 ```
@@ -96,7 +102,7 @@ Antes de considerar concluído, faça a Retrospect. Corrija antes de entregar.
 
 | Situação | Ação |
 |---|---|
-| Início de sessão | Skill `kom-graphify` + `/graphify .` + Carregue skills KOM + Consulte Registry + Lessons |
+| Início de sessão | Exiba `WELCOME.md` (1a vez) + Skill `kom-graphify` + `/graphify .` + Carregue skills KOM + Consulte Registry + Lessons |
 | Nova tarefa | Skill `kom-cycle` + Fase 1 (Orientação) |
 | Alterar arquivo existente | Skill `kom-radar` |
 | Dúvida arquitetural | Skill `kom-registry` |
