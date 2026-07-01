@@ -72,7 +72,7 @@ Antes da verificação por sub-agente independente, execute:
 - [ ] Lint / type-check / análise estática
 - [ ] Verificação de contrato (entrada/saída/erros batem com a Fase 3?)
 - [ ] Varredura de segurança básica
-- [ ] `graphify affected "<arquivo-modificado>"` — análise de impacto colateral
+- [ ] `graphify query "dependências de {arquivo}"` — análise de impacto colateral
 - [ ] `graphify query "quebras potenciais"` — verificar dependências não consideradas
 
 ---

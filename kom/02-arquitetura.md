@@ -49,7 +49,7 @@ Para cada decisão significativa, crie um **ADR (Architecture Decision Record)**
 ### Passo 6: Valide com o Radar e Graphify
 - As decisões impactam outras áreas?
 - Existem dependências não consideradas?
-- Use `graphify affected "<módulo>"` para validar impacto das decisões
+- Use `graphify query "impacto de {módulo}"` para validar impacto das decisões
 
 ---
 

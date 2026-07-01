@@ -18,6 +18,7 @@ Skills estão em: `.opencode/skills/kom-*/SKILL.md`
 | **Iniciar qualquer tarefa, feature, projeto** | `kom-cycle` — inicia as 6 fases |
 | **Editar, modificar ou excluir qualquer arquivo** | `kom-radar` — analisa impacto |
 | **Tomar qualquer decisão arquitetural** | `kom-registry` — consulta e registra |
+| **Analisar codebase ou buscar contexto** | `kom-graphify` — integra grafo de conhecimento |
 | **Concluir qualquer entrega** | `kom-retrospect` — auto-auditoria |
 | **Sempre que estiver em dúvida** | `kom-registry` — consulta decisões passadas |
 
@@ -95,10 +96,11 @@ Antes de considerar concluído, faça a Retrospect. Corrija antes de entregar.
 
 | Situação | Ação |
 |---|---|
-| Início de sessão | `/graphify .` + Carregue skills KOM + Consulte Registry + Lessons |
+| Início de sessão | Skill `kom-graphify` + `/graphify .` + Carregue skills KOM + Consulte Registry + Lessons |
 | Nova tarefa | Skill `kom-cycle` + Fase 1 (Orientação) |
 | Alterar arquivo existente | Skill `kom-radar` |
 | Dúvida arquitetural | Skill `kom-registry` |
+| Buscar contexto no codebase | Skill `kom-graphify` — query, path, explain |
 | Concluir entrega | Skill `kom-retrospect` + Fase 6 (Registro) |
 | Erro repetido | Consulte `knowledge/lessons/` |
 | Fim de sessão | Registre checkpoint em `knowledge/session-checkpoint.md` |

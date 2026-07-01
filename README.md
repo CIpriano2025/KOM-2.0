@@ -232,6 +232,9 @@ Cada entrada no Registry contém: **contexto** → **decisão** → **alternativ
 
 ## Como Adotar
 
+> **Pré-requisitos:** O KOM 2.0 é um protocolo — você copia a estrutura de diretórios e arquivos. Nada para instalar via npm, pip ou similar.  
+> O **Graphify** (grafo de conhecimento) é opcional e requer instalação separada — veja passo 5.
+
 ### 1. Adicione ao seu projeto
 
 ```
@@ -249,6 +252,7 @@ KOM 2.0 inclui skills OpenCode em `.opencode/skills/` que **auto-disparam** nos 
 | `kom-cycle` | Nova tarefa, feature, projeto |
 | `kom-radar` | Antes de editar qualquer arquivo |
 | `kom-registry` | Decisão arquitetural necessária |
+| `kom-graphify` | Analisar codebase ou buscar contexto |
 | `kom-retrospect` | Após concluir uma entrega |
 
 **Sem instalação extra.** O OpenCode descobre e ativa estas skills automaticamente.
@@ -271,14 +275,17 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 
 ### 5. Configure o Graphify (opcional, recomendado)
 
+> ⚠️ **Graphify não vem instalado.** É um pacote Python separado que você precisa instalar.  
+> Se pedir para o agente de IA instalar, ele saberá exatamente o que fazer.
+
 Graphify constrói um grafo de conhecimento do seu codebase para consultas rápidas.
 
 ```bash
-# Instalar
+# Instalar (você precisa executar este comando)
 pip install graphifyy
 
 # Configurar sua API key (uma das opções abaixo)
-export GEMINI_API_KEY="sua-chave-aqui"      # Gemini (gratuito)
+export GEMINI_API_KEY="sua-chave-aqui"      # Gemini (gratuito - sem cartão)
 export OPENAI_API_KEY="sua-chave-aqui"      # OpenAI
 export ANTHROPIC_API_KEY="sua-chave-aqui"   # Claude
 
@@ -293,7 +300,8 @@ graphify update .
 - **Gemini:** https://aistudio.google.com/apikey (sem cartão de crédito)
 - **DeepSeek:** alternativa econômica
 
-Sem API key, o `graphify update .` funciona para arquivos de código (AST-only, zero custo).
+> **Sem API key**, o `graphify update .` funciona apenas para AST de arquivos de código (zero custo).  
+> **Sem graphify instalado**, o KOM 2.0 funciona normalmente — você só perde as consultas rápidas por grafo.
 
 ### 6. Adapte a outros agentes
 
@@ -319,6 +327,7 @@ Sem API key, o `graphify update .` funciona para arquivos de código (AST-only, 
 │       ├── kom-cycle/         Dispara em novas tarefas
 │       ├── kom-radar/         Dispara antes de editar
 │       ├── kom-registry/      Dispara em decisões
+│       ├── kom-graphify/      Integra grafo de conhecimento
 │       ├── kom-retrospect/    Dispara após entregas
 │       └── kom-loop/          Controles de loop mode
 │
@@ -342,8 +351,6 @@ Sem API key, o `graphify update .` funciona para arquivos de código (AST-only, 
 │   ├── graph.json             Grafo queryável
 │   ├── GRAPH_REPORT.md        Relatório de comunidades e god nodes
 │   └── graph.html             Visualização interativa
-│
-└── Projeto Kom 2.0/           Saída dos projetos desenvolvidos com KOM 2.0
 ```
 
 ---

@@ -1,4 +1,4 @@
-# Fase 8 — Loop Engineering
+# Loop Engineering
 
 > **Loop Engineering é a evolução do Vibe Coding.** Em vez de prompts manuais um a um, você projeta um sistema autônomo que itera até o Goal ser atingido.
 

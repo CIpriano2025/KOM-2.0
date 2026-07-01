@@ -7,6 +7,36 @@ description: Integrates Graphify knowledge graph into the KOM 2.0 cycle. Use for
 
 Graphify constrói um grafo de conhecimento do codebase. Esta skill integra o grafo nas 6 fases do KOM.
 
+> ⚠️ **Graphify é um pacote externo.** O KOM 2.0 não o inclui. O usuário precisa instalar com `pip install graphifyy`. Se ele pedir para você instalar, use os comandos abaixo.
+
+---
+
+## Instalação (se o usuário solicitar)
+
+```bash
+pip install graphifyy
+```
+
+Opcional — configurar API key para melhor qualidade do grafo:
+
+```bash
+set GEMINI_API_KEY=sua-chave-aqui        # Windows PowerShell
+$env:GEMINI_API_KEY="sua-chave-aqui"     # Windows PowerShell (alternativo)
+export GEMINI_API_KEY="sua-chave-aqui"   # Linux/Mac
+```
+
+Buildar o grafo:
+
+```bash
+graphify .
+```
+
+Após mudanças no código (AST-only, sem custo):
+
+```bash
+graphify update .
+```
+
 ---
 
 ## Gatilho
@@ -16,7 +46,7 @@ Ativado automaticamente em:
 - **Fase 1 (Orientação):** Carregar `graphify-out/GRAPH_REPORT.md` para entender o codebase
 - **Fase 2 (Arquitetura):** Identificar god nodes (módulos centrais) e comunidades
 - **Fase 4 (Execução):** Usar `graphify query` para contexto mínimo
-- **Fase 5 (Verificação):** Usar `graphify affected` para análise de impacto
+- **Fase 5 (Verificação):** Usar `graphify query` para análise de impacto
 
 ---
 
@@ -29,7 +59,7 @@ Ativado automaticamente em:
 | `graphify query "pergunta"` | Buscar contexto mínimo no grafo |
 | `graphify path "A" "B"` | Descobrir relação entre dois nós |
 | `graphify explain "conceito"` | Explicar um nó e seus vizinhos |
-| `graphify affected "arquivo"` | Descobrir o que é impactado por uma mudança |
+| `graphify query "impacto de {arquivo}"` | Descobrir o que é impactado por uma mudança |
 
 ---
 
@@ -42,7 +72,7 @@ Antes de começar, carregue `graphify-out/GRAPH_REPORT.md` para entender a estru
 Use `graphify query "god nodes and communities"` para identificar módulos centrais e domínios.
 
 ### Fase 5 — Verificação
-Use `graphify affected "arquivo-modificado"` para verificar impacto colateral.
+Use `graphify query "impacto de {arquivo}"` para verificar impacto colateral.
 
 ---
 
