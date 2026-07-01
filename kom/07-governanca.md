@@ -42,11 +42,11 @@ Se o gate não passou, **não avance**. Não existe "quase passou".
 
 ```mermaid
 flowchart LR
-    V[Violu00e7u00e3o detectada] --> P[Pare imediatamente]
-    P --> R[Volte u00e0 fase omitida]
+    V[Violação detectada] --> P[Pare imediatamente]
+    P --> R[Volte à fase omitida]
     R --> C[Complete a fase]
     C --> L[Registre em lessons]
-    L --> S[Só entu00e3o prossiga]
+    L --> S[Só então prossiga]
 ```
 
 Violações não são para ser escondidas — são para ser aprendidas.

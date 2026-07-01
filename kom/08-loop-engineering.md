@@ -217,7 +217,7 @@ Cada iteração em worktree isolado. Sem risco de contaminação entre iteraçõ
 - [ ] Verificador independente designado?
 - [ ] Goal condition documentada?
 - [ ] Circuit breakers ativos?
-- [ ] Ralph technique理解ida (saber quando resetar)?
+- [ ] Ralph technique compreendida (saber quando resetar)?
 
 ---
 
