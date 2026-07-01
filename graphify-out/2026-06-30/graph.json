@@ -38,9 +38,10 @@
       "source_file": ".opencode/plugins/graphify.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "opencode_plugins_graphify",
       "community": 4,
-      "norm_label": "graphify.js"
+      "norm_label": "graphify.js",
+      "id": "opencode_plugins_graphify",
+      "community_name": "Community 4"
     },
     {
       "label": "GraphifyPlugin()",
@@ -48,113 +49,127 @@
       "source_file": ".opencode/plugins/graphify.js",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "opencode_plugins_graphify_graphifyplugin",
       "community": 4,
-      "norm_label": "graphifyplugin()"
+      "norm_label": "graphifyplugin()",
+      "id": "opencode_plugins_graphify_graphifyplugin",
+      "community_name": "Community 4"
     },
     {
       "label": "AGENTS.md",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "id": "agents_md",
       "community": 0,
-      "norm_label": "agents.md"
+      "norm_label": "agents.md",
+      "id": "agents_md",
+      "community_name": "Community 0"
     },
     {
       "label": "KOM 2.0 README",
       "file_type": "document",
       "source_file": "README.md",
-      "id": "readme_md",
       "community": 6,
-      "norm_label": "kom 2.0 readme"
+      "norm_label": "kom 2.0 readme",
+      "id": "readme_md",
+      "community_name": "Community 6"
     },
     {
       "label": "RFC-001 Architecture",
       "file_type": "document",
       "source_file": "Implementa\u00e7oes.txt",
-      "id": "implementacoes_txt",
       "community": 5,
-      "norm_label": "rfc-001 architecture"
+      "norm_label": "rfc-001 architecture",
+      "id": "implementacoes_txt",
+      "community_name": "Community 5"
     },
     {
       "label": "KOM Cycle",
       "file_type": "concept",
       "source_file": "kom/01-orientacao.md",
-      "id": "kom_cycle",
       "community": 1,
-      "norm_label": "kom cycle"
+      "norm_label": "kom cycle",
+      "id": "kom_cycle",
+      "community_name": "Community 1"
     },
     {
       "label": "KOM Radar",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-radar/SKILL.md",
-      "id": "kom_radar",
       "community": 0,
-      "norm_label": "kom radar"
+      "norm_label": "kom radar",
+      "id": "kom_radar",
+      "community_name": "Community 0"
     },
     {
       "label": "KOM Registry",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-registry/SKILL.md",
-      "id": "kom_registry",
       "community": 0,
-      "norm_label": "kom registry"
+      "norm_label": "kom registry",
+      "id": "kom_registry",
+      "community_name": "Community 0"
     },
     {
       "label": "KOM Retrospect",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-retrospect/SKILL.md",
-      "id": "kom_retrospect",
       "community": 2,
-      "norm_label": "kom retrospect"
+      "norm_label": "kom retrospect",
+      "id": "kom_retrospect",
+      "community_name": "Community 2"
     },
     {
       "label": "Loop Engineering",
       "file_type": "concept",
       "source_file": "kom/08-loop-engineering.md",
-      "id": "kom_loop_engineering",
       "community": 1,
-      "norm_label": "loop engineering"
+      "norm_label": "loop engineering",
+      "id": "kom_loop_engineering",
+      "community_name": "Community 1"
     },
     {
       "label": "Graphify Integration",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-graphify/SKILL.md",
-      "id": "kom_graphify",
       "community": 1,
-      "norm_label": "graphify integration"
+      "norm_label": "graphify integration",
+      "id": "kom_graphify",
+      "community_name": "Community 1"
     },
     {
       "label": "Knowledge Registry",
       "file_type": "rationale",
       "source_file": "knowledge/registry/",
-      "id": "knowledge_registry",
       "community": 0,
-      "norm_label": "knowledge registry"
+      "norm_label": "knowledge registry",
+      "id": "knowledge_registry",
+      "community_name": "Community 0"
     },
     {
       "label": "Knowledge Lessons",
       "file_type": "rationale",
       "source_file": "knowledge/lessons/",
-      "id": "knowledge_lessons",
       "community": 2,
-      "norm_label": "knowledge lessons"
+      "norm_label": "knowledge lessons",
+      "id": "knowledge_lessons",
+      "community_name": "Community 2"
     },
     {
       "label": "KOM Core",
       "file_type": "code",
       "source_file": "kom-core/",
-      "id": "kom_core",
       "community": 3,
-      "norm_label": "kom core"
+      "norm_label": "kom core",
+      "id": "kom_core",
+      "community_name": "Community 3"
     },
     {
       "label": "KOM MCP Server",
       "file_type": "code",
       "source_file": "kom-mcp/",
-      "id": "kom_mcp",
       "community": 3,
-      "norm_label": "kom mcp server"
+      "norm_label": "kom mcp server",
+      "id": "kom_mcp",
+      "community_name": "Community 3"
     }
   ],
   "links": [
@@ -164,9 +179,9 @@
       "source_file": ".opencode/plugins/graphify.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "opencode_plugins_graphify",
-      "target": "opencode_plugins_graphify_graphifyplugin",
-      "confidence_score": 1.0
+      "target": "opencode_plugins_graphify_graphifyplugin"
     },
     {
       "relation": "references",
@@ -201,19 +216,19 @@
       "target": "kom_retrospect"
     },
     {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "kom/08-loop-engineering.md",
-      "source": "kom_loop_engineering",
-      "target": "kom_cycle"
-    },
-    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".opencode/skills/kom-graphify/SKILL.md",
       "source": "kom_graphify",
+      "target": "kom_cycle"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "kom/08-loop-engineering.md",
+      "source": "kom_loop_engineering",
       "target": "kom_cycle"
     },
     {

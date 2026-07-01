@@ -33,15 +33,44 @@
   },
   "nodes": [
     {
+      "label": "opencode.json",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_opencode",
+      "community": 25,
+      "norm_label": "opencode.json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "opencode_opencode_schema",
+      "community": 25,
+      "norm_label": "$schema"
+    },
+    {
+      "label": "plugin",
+      "file_type": "code",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "opencode_opencode_plugin",
+      "community": 25,
+      "norm_label": "plugin"
+    },
+    {
       "label": "graphify.js",
       "file_type": "code",
       "source_file": ".opencode/plugins/graphify.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "graphify.js",
       "id": "opencode_plugins_graphify",
-      "community_name": "Community 4"
+      "community": 4,
+      "norm_label": "graphify.js"
     },
     {
       "label": "GraphifyPlugin()",
@@ -49,19 +78,2419 @@
       "source_file": ".opencode/plugins/graphify.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "graphifyplugin()",
       "id": "opencode_plugins_graphify_graphifyplugin",
-      "community_name": "Community 4"
+      "community": 4,
+      "norm_label": "graphifyplugin()"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-cycle/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_cycle_skill",
+      "community": 26,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Ciclo Obrigat\u00f3rio",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-cycle/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_cycle_skill_kom_2_0_ciclo_obrigat\u00f3rio",
+      "community": 26,
+      "norm_label": "kom 2.0 \u2014 ciclo obrigatorio"
+    },
+    {
+      "label": "Loop Mode",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-cycle/SKILL.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_cycle_skill_loop_mode",
+      "community": 26,
+      "norm_label": "loop mode"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill",
+      "community": 20,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Graphify Integration",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_kom_2_0_graphify_integration",
+      "community": 20,
+      "norm_label": "kom 2.0 \u2014 graphify integration"
+    },
+    {
+      "label": "Instala\u00e7\u00e3o (se o usu\u00e1rio solicitar)",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_instala\u00e7\u00e3o_se_o_usu\u00e1rio_solicitar",
+      "community": 20,
+      "norm_label": "instalacao (se o usuario solicitar)"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_gatilho",
+      "community": 20,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Comandos",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_comandos",
+      "community": 20,
+      "norm_label": "comandos"
+    },
+    {
+      "label": "Integra\u00e7\u00e3o por Fase",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_integra\u00e7\u00e3o_por_fase",
+      "community": 20,
+      "norm_label": "integracao por fase"
+    },
+    {
+      "label": "Fase 1 \u2014 Orienta\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_fase_1_orienta\u00e7\u00e3o",
+      "community": 20,
+      "norm_label": "fase 1 \u2014 orientacao"
+    },
+    {
+      "label": "Fase 2 \u2014 Arquitetura",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_fase_2_arquitetura",
+      "community": 20,
+      "norm_label": "fase 2 \u2014 arquitetura"
+    },
+    {
+      "label": "Fase 5 \u2014 Verifica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_fase_5_verifica\u00e7\u00e3o",
+      "community": 20,
+      "norm_label": "fase 5 \u2014 verificacao"
+    },
+    {
+      "label": "Notas",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_graphify_skill_notas",
+      "community": 20,
+      "norm_label": "notas"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill",
+      "community": 21,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Loop Controls",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_kom_2_0_loop_controls",
+      "community": 21,
+      "norm_label": "kom 2.0 \u2014 loop controls"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_gatilho",
+      "community": 21,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Configura\u00e7\u00e3o do Loop",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_configura\u00e7\u00e3o_do_loop",
+      "community": 21,
+      "norm_label": "configuracao do loop"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_protocolo",
+      "community": 21,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "1. Configurar",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_1_configurar",
+      "community": 21,
+      "norm_label": "1. configurar"
+    },
+    {
+      "label": "2. Executar",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_2_executar",
+      "community": 21,
+      "norm_label": "2. executar"
+    },
+    {
+      "label": "3. Verificar",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_3_verificar",
+      "community": 21,
+      "norm_label": "3. verificar"
+    },
+    {
+      "label": "4. Iterar ou Finalizar",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_4_iterar_ou_finalizar",
+      "community": 21,
+      "norm_label": "4. iterar ou finalizar"
+    },
+    {
+      "label": "Ralph Technique",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_loop_skill_ralph_technique",
+      "community": 21,
+      "norm_label": "ralph technique"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-radar/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_radar_skill",
+      "community": 27,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Radar",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-radar/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_radar_skill_kom_2_0_radar",
+      "community": 27,
+      "norm_label": "kom 2.0 \u2014 radar"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_registry_skill",
+      "community": 24,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Registry",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_registry_skill_kom_2_0_registry",
+      "community": 24,
+      "norm_label": "kom 2.0 \u2014 registry"
+    },
+    {
+      "label": "Consultar",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_registry_skill_consultar",
+      "community": 24,
+      "norm_label": "consultar"
+    },
+    {
+      "label": "Registrar",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_registry_skill_registrar",
+      "community": 24,
+      "norm_label": "registrar"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-retrospect/SKILL.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_retrospect_skill",
+      "community": 28,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Retrospect",
+      "file_type": "document",
+      "source_file": ".opencode/skills/kom-retrospect/SKILL.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "opencode_skills_kom_retrospect_skill_kom_2_0_retrospect",
+      "community": 28,
+      "norm_label": "kom 2.0 \u2014 retrospect"
     },
     {
       "label": "AGENTS.md",
       "file_type": "document",
       "source_file": "AGENTS.md",
-      "community": 0,
-      "norm_label": "agents.md",
-      "id": "agents_md",
-      "community_name": "Community 0"
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents",
+      "community": 7,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Protocolo de Navega\u00e7\u00e3o para Agentes de IA",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "community": 7,
+      "norm_label": "kom 2.0 \u2014 protocolo de navegacao para agentes de ia"
+    },
+    {
+      "label": "\ud83d\udd34 REGRA 0: Auto-ativa\u00e7\u00e3o Obrigat\u00f3ria",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "agents_regra_0_auto_ativa\u00e7\u00e3o_obrigat\u00f3ria",
+      "community": 7,
+      "norm_label": "\ud83d\udd34 regra 0: auto-ativacao obrigatoria"
+    },
+    {
+      "label": "Gatilhos autom\u00e1ticos:",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "agents_gatilhos_autom\u00e1ticos",
+      "community": 7,
+      "norm_label": "gatilhos automaticos:"
+    },
+    {
+      "label": "\u26a1 Boas-vindas Autom\u00e1tica",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "agents_boas_vindas_autom\u00e1tica",
+      "community": 7,
+      "norm_label": "\u26a1 boas-vindas automatica"
+    },
+    {
+      "label": "\ud83d\udccb Ciclo Obrigat\u00f3rio",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "agents_ciclo_obrigat\u00f3rio",
+      "community": 7,
+      "norm_label": "\ud83d\udccb ciclo obrigatorio"
+    },
+    {
+      "label": "\u2699\ufe0f Os Tr\u00eas Mecanismos",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "agents_os_tr\u00eas_mecanismos",
+      "community": 7,
+      "norm_label": "\u2699\ufe0f os tres mecanismos"
+    },
+    {
+      "label": "Registry \u2014 Consulte e Registre",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "agents_registry_consulte_e_registre",
+      "community": 7,
+      "norm_label": "registry \u2014 consulte e registre"
+    },
+    {
+      "label": "Radar \u2014 Analise Antes de Alterar",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "agents_radar_analise_antes_de_alterar",
+      "community": 7,
+      "norm_label": "radar \u2014 analise antes de alterar"
+    },
+    {
+      "label": "Retrospect \u2014 Aprenda com Cada Entrega",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "agents_retrospect_aprenda_com_cada_entrega",
+      "community": 7,
+      "norm_label": "retrospect \u2014 aprenda com cada entrega"
+    },
+    {
+      "label": "\ud83d\udcdc Regras de Conduta",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "agents_regras_de_conduta",
+      "community": 7,
+      "norm_label": "\ud83d\udcdc regras de conduta"
+    },
+    {
+      "label": "1. Conhecimento antes do c\u00f3digo",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "agents_1_conhecimento_antes_do_c\u00f3digo",
+      "community": 7,
+      "norm_label": "1. conhecimento antes do codigo"
+    },
+    {
+      "label": "2. Contrato antes da implementa\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L87",
+      "_origin": "ast",
+      "id": "agents_2_contrato_antes_da_implementa\u00e7\u00e3o",
+      "community": 7,
+      "norm_label": "2. contrato antes da implementacao"
+    },
+    {
+      "label": "3. Radar antes da edi\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "agents_3_radar_antes_da_edi\u00e7\u00e3o",
+      "community": 7,
+      "norm_label": "3. radar antes da edicao"
+    },
+    {
+      "label": "4. Toda entrega gera registro",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "agents_4_toda_entrega_gera_registro",
+      "community": 7,
+      "norm_label": "4. toda entrega gera registro"
+    },
+    {
+      "label": "5. Auto-auditoria obrigat\u00f3ria",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "agents_5_auto_auditoria_obrigat\u00f3ria",
+      "community": 7,
+      "norm_label": "5. auto-auditoria obrigatoria"
+    },
+    {
+      "label": "\u26a1 Gatilhos R\u00e1pidos",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "agents_gatilhos_r\u00e1pidos",
+      "community": 7,
+      "norm_label": "\u26a1 gatilhos rapidos"
+    },
+    {
+      "label": "\ud83d\udd04 Loop Engineering Mode",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "agents_loop_engineering_mode",
+      "community": 7,
+      "norm_label": "\ud83d\udd04 loop engineering mode"
+    },
+    {
+      "label": "Quando ativar",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "agents_quando_ativar",
+      "community": 7,
+      "norm_label": "quando ativar"
+    },
+    {
+      "label": "Regras do Loop",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "agents_regras_do_loop",
+      "community": 7,
+      "norm_label": "regras do loop"
+    },
+    {
+      "label": "\u26a0\ufe0f Viola\u00e7\u00f5es",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L168",
+      "_origin": "ast",
+      "id": "agents_viola\u00e7\u00f5es",
+      "community": 7,
+      "norm_label": "\u26a0\ufe0f violacoes"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L188",
+      "_origin": "ast",
+      "id": "agents_graphify",
+      "community": 7,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 8,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "\u00cdndice",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "readme_\u00edndice",
+      "community": 8,
+      "norm_label": "indice"
+    },
+    {
+      "label": "O Problema",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "readme_o_problema",
+      "community": 8,
+      "norm_label": "o problema"
+    },
+    {
+      "label": "A Revolu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "readme_a_revolu\u00e7\u00e3o",
+      "community": 8,
+      "norm_label": "a revolucao"
+    },
+    {
+      "label": "O Ciclo",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "readme_o_ciclo",
+      "community": 8,
+      "norm_label": "o ciclo"
+    },
+    {
+      "label": "Os Tr\u00eas Mecanismos",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L160",
+      "_origin": "ast",
+      "id": "readme_os_tr\u00eas_mecanismos",
+      "community": 8,
+      "norm_label": "os tres mecanismos"
+    },
+    {
+      "label": "Registry \u2014 Mem\u00f3ria Estrutural",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L187",
+      "_origin": "ast",
+      "id": "readme_registry_mem\u00f3ria_estrutural",
+      "community": 8,
+      "norm_label": "registry \u2014 memoria estrutural"
+    },
+    {
+      "label": "Radar \u2014 Vis\u00e3o de Impacto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L197",
+      "_origin": "ast",
+      "id": "readme_radar_vis\u00e3o_de_impacto",
+      "community": 8,
+      "norm_label": "radar \u2014 visao de impacto"
+    },
+    {
+      "label": "Retrospect \u2014 Aprendizado Cont\u00ednuo",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L207",
+      "_origin": "ast",
+      "id": "readme_retrospect_aprendizado_cont\u00ednuo",
+      "community": 8,
+      "norm_label": "retrospect \u2014 aprendizado continuo"
+    },
+    {
+      "label": "As Seis Fases",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "readme_as_seis_fases",
+      "community": 8,
+      "norm_label": "as seis fases"
+    },
+    {
+      "label": "Como Adotar",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L233",
+      "_origin": "ast",
+      "id": "readme_como_adotar",
+      "community": 8,
+      "norm_label": "como adotar"
+    },
+    {
+      "label": "1. Adicione ao seu projeto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L238",
+      "_origin": "ast",
+      "id": "readme_1_adicione_ao_seu_projeto",
+      "community": 8,
+      "norm_label": "1. adicione ao seu projeto"
+    },
+    {
+      "label": "2. \ud83d\ude80 Auto-ativa\u00e7\u00e3o (OpenCode)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L246",
+      "_origin": "ast",
+      "id": "readme_2_auto_ativa\u00e7\u00e3o_opencode",
+      "community": 8,
+      "norm_label": "2. \ud83d\ude80 auto-ativacao (opencode)"
+    },
+    {
+      "label": "3. Consulte as refer\u00eancias",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L260",
+      "_origin": "ast",
+      "id": "readme_3_consulte_as_refer\u00eancias",
+      "community": 8,
+      "norm_label": "3. consulte as referencias"
+    },
+    {
+      "label": "4. Use o sistema de mem\u00f3ria",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L268",
+      "_origin": "ast",
+      "id": "readme_4_use_o_sistema_de_mem\u00f3ria",
+      "community": 8,
+      "norm_label": "4. use o sistema de memoria"
+    },
+    {
+      "label": "5. Configure o Graphify (opcional, recomendado)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L276",
+      "_origin": "ast",
+      "id": "readme_5_configure_o_graphify_opcional_recomendado",
+      "community": 8,
+      "norm_label": "5. configure o graphify (opcional, recomendado)"
+    },
+    {
+      "label": "6. Adapte a outros agentes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L306",
+      "_origin": "ast",
+      "id": "readme_6_adapte_a_outros_agentes",
+      "community": 8,
+      "norm_label": "6. adapte a outros agentes"
+    },
+    {
+      "label": "Estrutura do Projeto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L319",
+      "_origin": "ast",
+      "id": "readme_estrutura_do_projeto",
+      "community": 8,
+      "norm_label": "estrutura do projeto"
+    },
+    {
+      "label": "Licen\u00e7a",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L358",
+      "_origin": "ast",
+      "id": "readme_licen\u00e7a",
+      "community": 8,
+      "norm_label": "licenca"
+    },
+    {
+      "label": "WELCOME.md",
+      "file_type": "document",
+      "source_file": "WELCOME.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "welcome",
+      "community": 33,
+      "norm_label": "welcome.md"
+    },
+    {
+      "label": "2026-06-30-correcao-inconsistencias-documentacao.md",
+      "file_type": "document",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao",
+      "community": 23,
+      "norm_label": "2026-06-30-correcao-inconsistencias-documentacao.md"
+    },
+    {
+      "label": "Li\u00e7\u00e3o: 2026-06-30 \u2014 Corre\u00e7\u00e3o de inconsist\u00eancias na documenta\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_li\u00e7\u00e3o_2026_06_30_corre\u00e7\u00e3o_de_inconsist\u00eancias_na_documenta\u00e7\u00e3o",
+      "community": 23,
+      "norm_label": "licao: 2026-06-30 \u2014 correcao de inconsistencias na documentacao"
+    },
+    {
+      "label": "1. O que eu faria diferente?",
+      "file_type": "document",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_1_o_que_eu_faria_diferente",
+      "community": 23,
+      "norm_label": "1. o que eu faria diferente?"
+    },
+    {
+      "label": "2. Alguma decis\u00e3o foi sub\u00f3tima?",
+      "file_type": "document",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_2_alguma_decis\u00e3o_foi_sub\u00f3tima",
+      "community": 23,
+      "norm_label": "2. alguma decisao foi subotima?"
+    },
+    {
+      "label": "3. Algum padr\u00e3o \u00fatil emergiu?",
+      "file_type": "document",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_3_algum_padr\u00e3o_\u00fatil_emergiu",
+      "community": 23,
+      "norm_label": "3. algum padrao util emergiu?"
+    },
+    {
+      "label": "4. O que deu errado que poderia ter sido evitado?",
+      "file_type": "document",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_4_o_que_deu_errado_que_poderia_ter_sido_evitado",
+      "community": 23,
+      "norm_label": "4. o que deu errado que poderia ter sido evitado?"
+    },
+    {
+      "label": "5. O que devo registrar para o futuro?",
+      "file_type": "document",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_5_o_que_devo_registrar_para_o_futuro",
+      "community": 23,
+      "norm_label": "5. o que devo registrar para o futuro?"
+    },
+    {
+      "label": "_template-adr.md",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr",
+      "community": 14,
+      "norm_label": "_template-adr.md"
+    },
+    {
+      "label": "ADR-{0001} \u2014 {T\u00edtulo da Decis\u00e3o Arquitetural}",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "community": 14,
+      "norm_label": "adr-{0001} \u2014 {titulo da decisao arquitetural}"
+    },
+    {
+      "label": "Contexto",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_contexto",
+      "community": 14,
+      "norm_label": "contexto"
+    },
+    {
+      "label": "Decis\u00e3o",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_decis\u00e3o",
+      "community": 14,
+      "norm_label": "decisao"
+    },
+    {
+      "label": "Consequ\u00eancias",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_consequ\u00eancias",
+      "community": 14,
+      "norm_label": "consequencias"
+    },
+    {
+      "label": "Positivas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_positivas",
+      "community": 14,
+      "norm_label": "positivas"
+    },
+    {
+      "label": "Negativas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_negativas",
+      "community": 14,
+      "norm_label": "negativas"
+    },
+    {
+      "label": "Neutras",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_neutras",
+      "community": 14,
+      "norm_label": "neutras"
+    },
+    {
+      "label": "Alternativas Consideradas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_alternativas_consideradas",
+      "community": 14,
+      "norm_label": "alternativas consideradas"
+    },
+    {
+      "label": "Alternativa A: {nome}",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_alternativa_a_nome",
+      "community": 14,
+      "norm_label": "alternativa a: {nome}"
+    },
+    {
+      "label": "Alternativa B: {nome}",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_alternativa_b_nome",
+      "community": 14,
+      "norm_label": "alternativa b: {nome}"
+    },
+    {
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_status",
+      "community": 14,
+      "norm_label": "status"
+    },
+    {
+      "label": "Refer\u00eancias",
+      "file_type": "document",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "knowledge_registry_template_adr_refer\u00eancias",
+      "community": 14,
+      "norm_label": "referencias"
+    },
+    {
+      "label": "adr-002-plugin-graphify-compatibilidade-windows.md",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows",
+      "community": 17,
+      "norm_label": "adr-002-plugin-graphify-compatibilidade-windows.md"
+    },
+    {
+      "label": "ADR-002 \u2014 Corre\u00e7\u00e3o de compatibilidade do plugin Graphify no Windows",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "community": 17,
+      "norm_label": "adr-002 \u2014 correcao de compatibilidade do plugin graphify no windows"
+    },
+    {
+      "label": "Contexto",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_contexto",
+      "community": 17,
+      "norm_label": "contexto"
+    },
+    {
+      "label": "Decis\u00e3o",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_decis\u00e3o",
+      "community": 17,
+      "norm_label": "decisao"
+    },
+    {
+      "label": "Consequ\u00eancias",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_consequ\u00eancias",
+      "community": 17,
+      "norm_label": "consequencias"
+    },
+    {
+      "label": "Positivas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_positivas",
+      "community": 17,
+      "norm_label": "positivas"
+    },
+    {
+      "label": "Negativas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_negativas",
+      "community": 17,
+      "norm_label": "negativas"
+    },
+    {
+      "label": "Alternativas Consideradas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativas_consideradas",
+      "community": 17,
+      "norm_label": "alternativas consideradas"
+    },
+    {
+      "label": "Alternativa A: Manter `&&` e documentar como limita\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativa_a_manter_e_documentar_como_limita\u00e7\u00e3o",
+      "community": 17,
+      "norm_label": "alternativa a: manter `&&` e documentar como limitacao"
+    },
+    {
+      "label": "Alternativa B: Detectar SO e escolher separador",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativa_b_detectar_so_e_escolher_separador",
+      "community": 17,
+      "norm_label": "alternativa b: detectar so e escolher separador"
+    },
+    {
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_status",
+      "community": 17,
+      "norm_label": "status"
+    },
+    {
+      "label": "Refer\u00eancias",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_refer\u00eancias",
+      "community": 17,
+      "norm_label": "referencias"
+    },
+    {
+      "label": "adr-003-correcao-comandos-graphify-inexistentes.md",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes",
+      "community": 18,
+      "norm_label": "adr-003-correcao-comandos-graphify-inexistentes.md"
+    },
+    {
+      "label": "ADR-003 \u2014 Corre\u00e7\u00e3o de comandos Graphify inexistentes",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "community": 18,
+      "norm_label": "adr-003 \u2014 correcao de comandos graphify inexistentes"
+    },
+    {
+      "label": "Contexto",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_contexto",
+      "community": 18,
+      "norm_label": "contexto"
+    },
+    {
+      "label": "Decis\u00e3o",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_decis\u00e3o",
+      "community": 18,
+      "norm_label": "decisao"
+    },
+    {
+      "label": "Consequ\u00eancias",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_consequ\u00eancias",
+      "community": 18,
+      "norm_label": "consequencias"
+    },
+    {
+      "label": "Positivas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_positivas",
+      "community": 18,
+      "norm_label": "positivas"
+    },
+    {
+      "label": "Negativas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_negativas",
+      "community": 18,
+      "norm_label": "negativas"
+    },
+    {
+      "label": "Alternativas Consideradas",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativas_consideradas",
+      "community": 18,
+      "norm_label": "alternativas consideradas"
+    },
+    {
+      "label": "Alternativa A: Contribuir com `graphify affected` como nova feature no graphify",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativa_a_contribuir_com_graphify_affected_como_nova_feature_no_graphify",
+      "community": 18,
+      "norm_label": "alternativa a: contribuir com `graphify affected` como nova feature no graphify"
+    },
+    {
+      "label": "Alternativa B: Manter como est\u00e1 e documentar como \"comando futuro\"",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativa_b_manter_como_est\u00e1_e_documentar_como_comando_futuro",
+      "community": 18,
+      "norm_label": "alternativa b: manter como esta e documentar como \"comando futuro\""
+    },
+    {
+      "label": "Status",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_status",
+      "community": 18,
+      "norm_label": "status"
+    },
+    {
+      "label": "Refer\u00eancias",
+      "file_type": "document",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_refer\u00eancias",
+      "community": 18,
+      "norm_label": "referencias"
+    },
+    {
+      "label": "00-manifesto.md",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_00_manifesto",
+      "community": 11,
+      "norm_label": "00-manifesto.md"
+    },
+    {
+      "label": "KOM 2.0 \u2014 Manifesto",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_kom_2_0_manifesto",
+      "community": 11,
+      "norm_label": "kom 2.0 \u2014 manifesto"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_prop\u00f3sito",
+      "community": 11,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Os Seis Problemas",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_os_seis_problemas",
+      "community": 11,
+      "norm_label": "os seis problemas"
+    },
+    {
+      "label": "A Solu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_a_solu\u00e7\u00e3o",
+      "community": 11,
+      "norm_label": "a solucao"
+    },
+    {
+      "label": "Princ\u00edpios",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_princ\u00edpios",
+      "community": 11,
+      "norm_label": "principios"
+    },
+    {
+      "label": "1. Conhecimento primeiro",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_1_conhecimento_primeiro",
+      "community": 11,
+      "norm_label": "1. conhecimento primeiro"
+    },
+    {
+      "label": "2. Gates s\u00e3o barreiras, n\u00e3o sugest\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_2_gates_s\u00e3o_barreiras_n\u00e3o_sugest\u00f5es",
+      "community": 11,
+      "norm_label": "2. gates sao barreiras, nao sugestoes"
+    },
+    {
+      "label": "3. Registry \u00e9 imut\u00e1vel",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_3_registry_\u00e9_imut\u00e1vel",
+      "community": 11,
+      "norm_label": "3. registry e imutavel"
+    },
+    {
+      "label": "4. Radar antes do remo",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_4_radar_antes_do_remo",
+      "community": 11,
+      "norm_label": "4. radar antes do remo"
+    },
+    {
+      "label": "5. Retrospect n\u00e3o \u00e9 opcional",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_5_retrospect_n\u00e3o_\u00e9_opcional",
+      "community": 11,
+      "norm_label": "5. retrospect nao e opcional"
+    },
+    {
+      "label": "6. Simplicidade sobre completude",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_6_simplicidade_sobre_completude",
+      "community": 11,
+      "norm_label": "6. simplicidade sobre completude"
+    },
+    {
+      "label": "P\u00fablico",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_p\u00fablico",
+      "community": 11,
+      "norm_label": "publico"
+    },
+    {
+      "label": "O Que KOM 2.0 N\u00c3O \u00c9",
+      "file_type": "document",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "kom_00_manifesto_o_que_kom_2_0_n\u00e3o_\u00e9",
+      "community": 11,
+      "norm_label": "o que kom 2.0 nao e"
+    },
+    {
+      "label": "01-orientacao.md",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_01_orientacao",
+      "community": 12,
+      "norm_label": "01-orientacao.md"
+    },
+    {
+      "label": "Fase 1 \u2014 Orienta\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "community": 12,
+      "norm_label": "fase 1 \u2014 orientacao"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_prop\u00f3sito",
+      "community": 12,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_gatilho",
+      "community": 12,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_protocolo",
+      "community": 12,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "Passo 1: Identifique o Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_passo_1_identifique_o_prop\u00f3sito",
+      "community": 12,
+      "norm_label": "passo 1: identifique o proposito"
+    },
+    {
+      "label": "Passo 2: Mapeie o Dom\u00ednio",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_passo_2_mapeie_o_dom\u00ednio",
+      "community": 12,
+      "norm_label": "passo 2: mapeie o dominio"
+    },
+    {
+      "label": "Passo 3: Liste as Restri\u00e7\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_passo_3_liste_as_restri\u00e7\u00f5es",
+      "community": 12,
+      "norm_label": "passo 3: liste as restricoes"
+    },
+    {
+      "label": "Passo 4: Consulte o Grafo de Conhecimento (Graphify)",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_passo_4_consulte_o_grafo_de_conhecimento_graphify",
+      "community": 12,
+      "norm_label": "passo 4: consulte o grafo de conhecimento (graphify)"
+    },
+    {
+      "label": "Passo 5: Consulte o Registry",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_passo_5_consulte_o_registry",
+      "community": 12,
+      "norm_label": "passo 5: consulte o registry"
+    },
+    {
+      "label": "Passo 6: Documente",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_passo_6_documente",
+      "community": 12,
+      "norm_label": "passo 6: documente"
+    },
+    {
+      "label": "Gate de Sa\u00edda",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_gate_de_sa\u00edda",
+      "community": 12,
+      "norm_label": "gate de saida"
+    },
+    {
+      "label": "Anti-Padr\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_anti_padr\u00f5es",
+      "community": 12,
+      "norm_label": "anti-padroes"
+    },
+    {
+      "label": "Radar Check",
+      "file_type": "document",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "kom_01_orientacao_radar_check",
+      "community": 12,
+      "norm_label": "radar check"
+    },
+    {
+      "label": "02-arquitetura.md",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura",
+      "community": 13,
+      "norm_label": "02-arquitetura.md"
+    },
+    {
+      "label": "Fase 2 \u2014 Arquitetura",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_fase_2_arquitetura",
+      "community": 13,
+      "norm_label": "fase 2 \u2014 arquitetura"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_prop\u00f3sito",
+      "community": 13,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_gatilho",
+      "community": 13,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_protocolo",
+      "community": 13,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "Passo 1: Identifique os Limites",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_passo_1_identifique_os_limites",
+      "community": 13,
+      "norm_label": "passo 1: identifique os limites"
+    },
+    {
+      "label": "Passo 2: Defina Contratos de Fronteira",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_passo_2_defina_contratos_de_fronteira",
+      "community": 13,
+      "norm_label": "passo 2: defina contratos de fronteira"
+    },
+    {
+      "label": "Passo 3: Analise God Nodes e Comunidades",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_passo_3_analise_god_nodes_e_comunidades",
+      "community": 13,
+      "norm_label": "passo 3: analise god nodes e comunidades"
+    },
+    {
+      "label": "Passo 4: Tome Decis\u00f5es Arquiteturais (ADR)",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_passo_4_tome_decis\u00f5es_arquiteturais_adr",
+      "community": 13,
+      "norm_label": "passo 4: tome decisoes arquiteturais (adr)"
+    },
+    {
+      "label": "Passo 5: Identifique Riscos T\u00e9cnicos",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_passo_5_identifique_riscos_t\u00e9cnicos",
+      "community": 13,
+      "norm_label": "passo 5: identifique riscos tecnicos"
+    },
+    {
+      "label": "Passo 6: Valide com o Radar e Graphify",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_passo_6_valide_com_o_radar_e_graphify",
+      "community": 13,
+      "norm_label": "passo 6: valide com o radar e graphify"
+    },
+    {
+      "label": "Gate de Sa\u00edda",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_gate_de_sa\u00edda",
+      "community": 13,
+      "norm_label": "gate de saida"
+    },
+    {
+      "label": "Anti-Padr\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_anti_padr\u00f5es",
+      "community": 13,
+      "norm_label": "anti-padroes"
+    },
+    {
+      "label": "Radar Check",
+      "file_type": "document",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "kom_02_arquitetura_radar_check",
+      "community": 13,
+      "norm_label": "radar check"
+    },
+    {
+      "label": "03-contrato.md",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_03_contrato",
+      "community": 15,
+      "norm_label": "03-contrato.md"
+    },
+    {
+      "label": "Fase 3 \u2014 Contrato",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_03_contrato_fase_3_contrato",
+      "community": 15,
+      "norm_label": "fase 3 \u2014 contrato"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_03_contrato_prop\u00f3sito",
+      "community": 15,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "kom_03_contrato_gatilho",
+      "community": 15,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "kom_03_contrato_protocolo",
+      "community": 15,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "Passo 1: Defina a Interface",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "kom_03_contrato_passo_1_defina_a_interface",
+      "community": 15,
+      "norm_label": "passo 1: defina a interface"
+    },
+    {
+      "label": "Passo 2: Especifique a Entrada",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "kom_03_contrato_passo_2_especifique_a_entrada",
+      "community": 15,
+      "norm_label": "passo 2: especifique a entrada"
+    },
+    {
+      "label": "Passo 3: Especifique a Sa\u00edda",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "kom_03_contrato_passo_3_especifique_a_sa\u00edda",
+      "community": 15,
+      "norm_label": "passo 3: especifique a saida"
+    },
+    {
+      "label": "Passo 4: Especifique os Erros",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "kom_03_contrato_passo_4_especifique_os_erros",
+      "community": 15,
+      "norm_label": "passo 4: especifique os erros"
+    },
+    {
+      "label": "Passo 5: Mapeie o Impacto",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "kom_03_contrato_passo_5_mapeie_o_impacto",
+      "community": 15,
+      "norm_label": "passo 5: mapeie o impacto"
+    },
+    {
+      "label": "Gate de Sa\u00edda",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "kom_03_contrato_gate_de_sa\u00edda",
+      "community": 15,
+      "norm_label": "gate de saida"
+    },
+    {
+      "label": "Anti-Padr\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "kom_03_contrato_anti_padr\u00f5es",
+      "community": 15,
+      "norm_label": "anti-padroes"
+    },
+    {
+      "label": "Radar Check",
+      "file_type": "document",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "kom_03_contrato_radar_check",
+      "community": 15,
+      "norm_label": "radar check"
+    },
+    {
+      "label": "04-execucao.md",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_04_execucao",
+      "community": 16,
+      "norm_label": "04-execucao.md"
+    },
+    {
+      "label": "Fase 4 \u2014 Execu\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "community": 16,
+      "norm_label": "fase 4 \u2014 execucao"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_04_execucao_prop\u00f3sito",
+      "community": 16,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "kom_04_execucao_gatilho",
+      "community": 16,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "kom_04_execucao_protocolo",
+      "community": 16,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "Passo 1: Prepare a Valida\u00e7\u00e3o Primeiro",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "kom_04_execucao_passo_1_prepare_a_valida\u00e7\u00e3o_primeiro",
+      "community": 16,
+      "norm_label": "passo 1: prepare a validacao primeiro"
+    },
+    {
+      "label": "Passo 2: Implemente o M\u00ednimo Necess\u00e1rio",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "kom_04_execucao_passo_2_implemente_o_m\u00ednimo_necess\u00e1rio",
+      "community": 16,
+      "norm_label": "passo 2: implemente o minimo necessario"
+    },
+    {
+      "label": "Passo 3: Valide Contra o Contrato",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "kom_04_execucao_passo_3_valide_contra_o_contrato",
+      "community": 16,
+      "norm_label": "passo 3: valide contra o contrato"
+    },
+    {
+      "label": "Passo 4: Execute o Radar",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "kom_04_execucao_passo_4_execute_o_radar",
+      "community": 16,
+      "norm_label": "passo 4: execute o radar"
+    },
+    {
+      "label": "Passo 5: Corrija Descobertas",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "kom_04_execucao_passo_5_corrija_descobertas",
+      "community": 16,
+      "norm_label": "passo 5: corrija descobertas"
+    },
+    {
+      "label": "Gate de Sa\u00edda",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "kom_04_execucao_gate_de_sa\u00edda",
+      "community": 16,
+      "norm_label": "gate de saida"
+    },
+    {
+      "label": "Anti-Padr\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "kom_04_execucao_anti_padr\u00f5es",
+      "community": 16,
+      "norm_label": "anti-padroes"
+    },
+    {
+      "label": "Radar Check",
+      "file_type": "document",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "kom_04_execucao_radar_check",
+      "community": 16,
+      "norm_label": "radar check"
+    },
+    {
+      "label": "05-verificacao.md",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_05_verificacao",
+      "community": 10,
+      "norm_label": "05-verificacao.md"
+    },
+    {
+      "label": "Fase 5 \u2014 Verifica\u00e7\u00e3o",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "community": 10,
+      "norm_label": "fase 5 \u2014 verificacao"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_prop\u00f3sito",
+      "community": 10,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_gatilho",
+      "community": 10,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_protocolo",
+      "community": 10,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "Passo 1: Audite com Olhar Cr\u00edtico",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_passo_1_audite_com_olhar_cr\u00edtico",
+      "community": 10,
+      "norm_label": "passo 1: audite com olhar critico"
+    },
+    {
+      "label": "Passo 2: Verifique Conformidade com Contratos",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_passo_2_verifique_conformidade_com_contratos",
+      "community": 10,
+      "norm_label": "passo 2: verifique conformidade com contratos"
+    },
+    {
+      "label": "Passo 3: Verifique Conformidade Arquitetural",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_passo_3_verifique_conformidade_arquitetural",
+      "community": 10,
+      "norm_label": "passo 3: verifique conformidade arquitetural"
+    },
+    {
+      "label": "Passo 4: Execute o Radar Completo",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_passo_4_execute_o_radar_completo",
+      "community": 10,
+      "norm_label": "passo 4: execute o radar completo"
+    },
+    {
+      "label": "Passo 5: Corrija Problemas",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_passo_5_corrija_problemas",
+      "community": 10,
+      "norm_label": "passo 5: corrija problemas"
+    },
+    {
+      "label": "\ud83d\udd04 External Verification (Loop Engineering)",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_external_verification_loop_engineering",
+      "community": 10,
+      "norm_label": "\ud83d\udd04 external verification (loop engineering)"
+    },
+    {
+      "label": "Regra Fundamental",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_regra_fundamental",
+      "community": 10,
+      "norm_label": "regra fundamental"
+    },
+    {
+      "label": "Ralph Gate",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_ralph_gate",
+      "community": 10,
+      "norm_label": "ralph gate"
+    },
+    {
+      "label": "Automated Pre-Checks",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_automated_pre_checks",
+      "community": 10,
+      "norm_label": "automated pre-checks"
+    },
+    {
+      "label": "Gate de Sa\u00edda",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_gate_de_sa\u00edda",
+      "community": 10,
+      "norm_label": "gate de saida"
+    },
+    {
+      "label": "Anti-Padr\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_anti_padr\u00f5es",
+      "community": 10,
+      "norm_label": "anti-padroes"
+    },
+    {
+      "label": "Radar Check",
+      "file_type": "document",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "kom_05_verificacao_radar_check",
+      "community": 10,
+      "norm_label": "radar check"
+    },
+    {
+      "label": "06-registro.md",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_06_registro",
+      "community": 19,
+      "norm_label": "06-registro.md"
+    },
+    {
+      "label": "Fase 6 \u2014 Registro",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_06_registro_fase_6_registro",
+      "community": 19,
+      "norm_label": "fase 6 \u2014 registro"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_06_registro_prop\u00f3sito",
+      "community": 19,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Gatilho",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "kom_06_registro_gatilho",
+      "community": 19,
+      "norm_label": "gatilho"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "kom_06_registro_protocolo",
+      "community": 19,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "Passo 1: Registry \u2014 Decis\u00f5es Arquiteturais",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "kom_06_registro_passo_1_registry_decis\u00f5es_arquiteturais",
+      "community": 19,
+      "norm_label": "passo 1: registry \u2014 decisoes arquiteturais"
+    },
+    {
+      "label": "Passo 2: Lessons \u2014 Li\u00e7\u00f5es Aprendidas",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "kom_06_registro_passo_2_lessons_li\u00e7\u00f5es_aprendidas",
+      "community": 19,
+      "norm_label": "passo 2: lessons \u2014 licoes aprendidas"
+    },
+    {
+      "label": "Passo 3: Patterns \u2014 Padr\u00f5es Identificados",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "kom_06_registro_passo_3_patterns_padr\u00f5es_identificados",
+      "community": 19,
+      "norm_label": "passo 3: patterns \u2014 padroes identificados"
+    },
+    {
+      "label": "Passo 4: Refer\u00eancias Cruzadas",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "kom_06_registro_passo_4_refer\u00eancias_cruzadas",
+      "community": 19,
+      "norm_label": "passo 4: referencias cruzadas"
+    },
+    {
+      "label": "Gate de Sa\u00edda",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "kom_06_registro_gate_de_sa\u00edda",
+      "community": 19,
+      "norm_label": "gate de saida"
+    },
+    {
+      "label": "Anti-Padr\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "kom_06_registro_anti_padr\u00f5es",
+      "community": 19,
+      "norm_label": "anti-padroes"
+    },
+    {
+      "label": "Radar Check",
+      "file_type": "document",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "kom_06_registro_radar_check",
+      "community": 19,
+      "norm_label": "radar check"
+    },
+    {
+      "label": "07-governanca.md",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_07_governanca",
+      "community": 22,
+      "norm_label": "07-governanca.md"
+    },
+    {
+      "label": "Governan\u00e7a \u2014 Auto-Governan\u00e7a Entre Fases",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "community": 22,
+      "norm_label": "governanca \u2014 auto-governanca entre fases"
+    },
+    {
+      "label": "Prop\u00f3sito",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_07_governanca_prop\u00f3sito",
+      "community": 22,
+      "norm_label": "proposito"
+    },
+    {
+      "label": "Transi\u00e7\u00f5es Entre Fases",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "kom_07_governanca_transi\u00e7\u00f5es_entre_fases",
+      "community": 22,
+      "norm_label": "transicoes entre fases"
+    },
+    {
+      "label": "Exce\u00e7\u00f5es ao Ciclo Completo",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "kom_07_governanca_exce\u00e7\u00f5es_ao_ciclo_completo",
+      "community": 22,
+      "norm_label": "excecoes ao ciclo completo"
+    },
+    {
+      "label": "Tratamento de Viola\u00e7\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "kom_07_governanca_tratamento_de_viola\u00e7\u00f5es",
+      "community": 22,
+      "norm_label": "tratamento de violacoes"
+    },
+    {
+      "label": "Sess\u00f5es M\u00faltiplas",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "kom_07_governanca_sess\u00f5es_m\u00faltiplas",
+      "community": 22,
+      "norm_label": "sessoes multiplas"
+    },
+    {
+      "label": "Gatilhos R\u00e1pidos",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "kom_07_governanca_gatilhos_r\u00e1pidos",
+      "community": 22,
+      "norm_label": "gatilhos rapidos"
+    },
+    {
+      "label": "Princ\u00edpios da Governan\u00e7a",
+      "file_type": "document",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "kom_07_governanca_princ\u00edpios_da_governan\u00e7a",
+      "community": 22,
+      "norm_label": "principios da governanca"
+    },
+    {
+      "label": "08-loop-engineering.md",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering",
+      "community": 9,
+      "norm_label": "08-loop-engineering.md"
+    },
+    {
+      "label": "Loop Engineering",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_loop_engineering",
+      "community": 9,
+      "norm_label": "loop engineering"
+    },
+    {
+      "label": "Contexto",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_contexto",
+      "community": 9,
+      "norm_label": "contexto"
+    },
+    {
+      "label": "\ud83d\udd04 ReAct no KOM 2.0",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_react_no_kom_2_0",
+      "community": 9,
+      "norm_label": "\ud83d\udd04 react no kom 2.0"
+    },
+    {
+      "label": "\u26a1 Sub-Agent Separation",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_sub_agent_separation",
+      "community": 9,
+      "norm_label": "\u26a1 sub-agent separation"
+    },
+    {
+      "label": "Por qu\u00ea",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_por_qu\u00ea",
+      "community": 9,
+      "norm_label": "por que"
+    },
+    {
+      "label": "Como implementar",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_como_implementar",
+      "community": 9,
+      "norm_label": "como implementar"
+    },
+    {
+      "label": "\ud83c\udf00 Ralph Technique",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_ralph_technique",
+      "community": 9,
+      "norm_label": "\ud83c\udf00 ralph technique"
+    },
+    {
+      "label": "Protocolo",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_protocolo",
+      "community": 9,
+      "norm_label": "protocolo"
+    },
+    {
+      "label": "Limites",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_limites",
+      "community": 9,
+      "norm_label": "limites"
+    },
+    {
+      "label": "\ud83c\udfaf Goal Conditions",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_goal_conditions",
+      "community": 9,
+      "norm_label": "\ud83c\udfaf goal conditions"
+    },
+    {
+      "label": "Goal formal",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_goal_formal",
+      "community": 9,
+      "norm_label": "goal formal"
+    },
+    {
+      "label": "\ud83d\udd01 Loop Cadence",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_loop_cadence",
+      "community": 9,
+      "norm_label": "\ud83d\udd01 loop cadence"
+    },
+    {
+      "label": "\u26d4 Circuit Breakers",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L165",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_circuit_breakers",
+      "community": 9,
+      "norm_label": "\u26d4 circuit breakers"
+    },
+    {
+      "label": "\ud83d\udcb0 Cost Controls",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L186",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_cost_controls",
+      "community": 9,
+      "norm_label": "\ud83d\udcb0 cost controls"
+    },
+    {
+      "label": "\ud83c\udf32 Worktree Isolation (Opcional)",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L199",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_worktree_isolation_opcional",
+      "community": 9,
+      "norm_label": "\ud83c\udf32 worktree isolation (opcional)"
+    },
+    {
+      "label": "\ud83d\udccb Checklist do Loop",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L213",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_checklist_do_loop",
+      "community": 9,
+      "norm_label": "\ud83d\udccb checklist do loop"
+    },
+    {
+      "label": "Anti-Padr\u00f5es",
+      "file_type": "document",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L224",
+      "_origin": "ast",
+      "id": "kom_08_loop_engineering_anti_padr\u00f5es",
+      "community": 9,
+      "norm_label": "anti-padroes"
     },
     {
       "label": "KOM 2.0 README",
@@ -69,8 +2498,8 @@
       "source_file": "README.md",
       "community": 6,
       "norm_label": "kom 2.0 readme",
-      "id": "readme_md",
-      "community_name": "Community 6"
+      "community_name": "Community 6",
+      "id": "readme_md"
     },
     {
       "label": "RFC-001 Architecture",
@@ -78,8 +2507,8 @@
       "source_file": "Implementa\u00e7oes.txt",
       "community": 5,
       "norm_label": "rfc-001 architecture",
-      "id": "implementacoes_txt",
-      "community_name": "Community 5"
+      "community_name": "Community 5",
+      "id": "implementacoes_txt"
     },
     {
       "label": "KOM Cycle",
@@ -87,53 +2516,44 @@
       "source_file": "kom/01-orientacao.md",
       "community": 1,
       "norm_label": "kom cycle",
-      "id": "kom_cycle",
-      "community_name": "Community 1"
+      "community_name": "Community 1",
+      "id": "kom_cycle"
     },
     {
       "label": "KOM Radar",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-radar/SKILL.md",
-      "community": 0,
+      "community": 30,
       "norm_label": "kom radar",
-      "id": "kom_radar",
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "kom_radar"
     },
     {
       "label": "KOM Registry",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-registry/SKILL.md",
-      "community": 0,
+      "community": 31,
       "norm_label": "kom registry",
-      "id": "kom_registry",
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "kom_registry"
     },
     {
       "label": "KOM Retrospect",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-retrospect/SKILL.md",
-      "community": 2,
+      "community": 32,
       "norm_label": "kom retrospect",
-      "id": "kom_retrospect",
-      "community_name": "Community 2"
-    },
-    {
-      "label": "Loop Engineering",
-      "file_type": "concept",
-      "source_file": "kom/08-loop-engineering.md",
-      "community": 1,
-      "norm_label": "loop engineering",
-      "id": "kom_loop_engineering",
-      "community_name": "Community 1"
+      "community_name": "Community 2",
+      "id": "kom_retrospect"
     },
     {
       "label": "Graphify Integration",
       "file_type": "concept",
       "source_file": ".opencode/skills/kom-graphify/SKILL.md",
-      "community": 1,
+      "community": 29,
       "norm_label": "graphify integration",
-      "id": "kom_graphify",
-      "community_name": "Community 1"
+      "community_name": "Community 1",
+      "id": "kom_graphify"
     },
     {
       "label": "Knowledge Registry",
@@ -141,8 +2561,8 @@
       "source_file": "knowledge/registry/",
       "community": 0,
       "norm_label": "knowledge registry",
-      "id": "knowledge_registry",
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "knowledge_registry"
     },
     {
       "label": "Knowledge Lessons",
@@ -150,8 +2570,8 @@
       "source_file": "knowledge/lessons/",
       "community": 2,
       "norm_label": "knowledge lessons",
-      "id": "knowledge_lessons",
-      "community_name": "Community 2"
+      "community_name": "Community 2",
+      "id": "knowledge_lessons"
     },
     {
       "label": "KOM Core",
@@ -159,8 +2579,8 @@
       "source_file": "kom-core/",
       "community": 3,
       "norm_label": "kom core",
-      "id": "kom_core",
-      "community_name": "Community 3"
+      "community_name": "Community 3",
+      "id": "kom_core"
     },
     {
       "label": "KOM MCP Server",
@@ -168,84 +2588,2230 @@
       "source_file": "kom-mcp/",
       "community": 3,
       "norm_label": "kom mcp server",
-      "id": "kom_mcp",
-      "community_name": "Community 3"
+      "community_name": "Community 3",
+      "id": "kom_mcp"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_plugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/opencode.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "opencode_opencode",
+      "target": "opencode_opencode_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".opencode/plugins/graphify.js",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "opencode_plugins_graphify",
-      "target": "opencode_plugins_graphify_graphifyplugin"
+      "target": "opencode_plugins_graphify_graphifyplugin",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source": "agents_md",
-      "target": "kom_cycle"
+      "source_file": ".opencode/skills/kom-cycle/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_cycle_skill",
+      "target": "opencode_skills_kom_cycle_skill_kom_2_0_ciclo_obrigat\u00f3rio",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source": "agents_md",
-      "target": "kom_radar"
+      "source_file": ".opencode/skills/kom-cycle/SKILL.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_cycle_skill_kom_2_0_ciclo_obrigat\u00f3rio",
+      "target": "opencode_skills_kom_cycle_skill_loop_mode",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source": "agents_md",
-      "target": "kom_registry"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source": "agents_md",
-      "target": "kom_retrospect"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": ".opencode/skills/kom-graphify/SKILL.md",
-      "source": "kom_graphify",
-      "target": "kom_cycle"
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill",
+      "target": "opencode_skills_kom_graphify_skill_kom_2_0_graphify_integration",
+      "confidence_score": 1.0
     },
     {
-      "relation": "implements",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "kom/08-loop-engineering.md",
-      "source": "kom_loop_engineering",
-      "target": "kom_cycle"
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_kom_2_0_graphify_integration",
+      "target": "opencode_skills_kom_graphify_skill_comandos",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_kom_2_0_graphify_integration",
+      "target": "opencode_skills_kom_graphify_skill_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_kom_2_0_graphify_integration",
+      "target": "opencode_skills_kom_graphify_skill_instala\u00e7\u00e3o_se_o_usu\u00e1rio_solicitar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_kom_2_0_graphify_integration",
+      "target": "opencode_skills_kom_graphify_skill_integra\u00e7\u00e3o_por_fase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_kom_2_0_graphify_integration",
+      "target": "opencode_skills_kom_graphify_skill_notas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_integra\u00e7\u00e3o_por_fase",
+      "target": "opencode_skills_kom_graphify_skill_fase_1_orienta\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_integra\u00e7\u00e3o_por_fase",
+      "target": "opencode_skills_kom_graphify_skill_fase_2_arquitetura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_graphify_skill_integra\u00e7\u00e3o_por_fase",
+      "target": "opencode_skills_kom_graphify_skill_fase_5_verifica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill",
+      "target": "opencode_skills_kom_loop_skill_kom_2_0_loop_controls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_kom_2_0_loop_controls",
+      "target": "opencode_skills_kom_loop_skill_configura\u00e7\u00e3o_do_loop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_kom_2_0_loop_controls",
+      "target": "opencode_skills_kom_loop_skill_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_kom_2_0_loop_controls",
+      "target": "opencode_skills_kom_loop_skill_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_kom_2_0_loop_controls",
+      "target": "opencode_skills_kom_loop_skill_ralph_technique",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_protocolo",
+      "target": "opencode_skills_kom_loop_skill_1_configurar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_protocolo",
+      "target": "opencode_skills_kom_loop_skill_2_executar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_protocolo",
+      "target": "opencode_skills_kom_loop_skill_3_verificar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-loop/SKILL.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_loop_skill_protocolo",
+      "target": "opencode_skills_kom_loop_skill_4_iterar_ou_finalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".opencode/skills/kom-radar/SKILL.md",
-      "source": "kom_radar",
-      "target": "knowledge_registry"
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_radar_skill",
+      "target": "opencode_skills_kom_radar_skill_kom_2_0_radar",
+      "confidence_score": 1.0
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_registry_skill",
+      "target": "opencode_skills_kom_registry_skill_kom_2_0_registry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_registry_skill_kom_2_0_registry",
+      "target": "opencode_skills_kom_registry_skill_consultar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_registry_skill_kom_2_0_registry",
+      "target": "opencode_skills_kom_registry_skill_registrar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".opencode/skills/kom-retrospect/SKILL.md",
-      "source": "kom_retrospect",
-      "target": "knowledge_lessons"
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "opencode_skills_kom_retrospect_skill",
+      "target": "opencode_skills_kom_retrospect_skill_kom_2_0_retrospect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents",
+      "target": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_ciclo_obrigat\u00f3rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_gatilhos_r\u00e1pidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_loop_engineering_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_os_tr\u00eas_mecanismos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_regra_0_auto_ativa\u00e7\u00e3o_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_regras_de_conduta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "agents_kom_2_0_protocolo_de_navega\u00e7\u00e3o_para_agentes_de_ia",
+      "target": "agents_viola\u00e7\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "agents_regra_0_auto_ativa\u00e7\u00e3o_obrigat\u00f3ria",
+      "target": "agents_boas_vindas_autom\u00e1tica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "agents_regra_0_auto_ativa\u00e7\u00e3o_obrigat\u00f3ria",
+      "target": "agents_gatilhos_autom\u00e1ticos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "agents_os_tr\u00eas_mecanismos",
+      "target": "agents_radar_analise_antes_de_alterar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "agents_os_tr\u00eas_mecanismos",
+      "target": "agents_registry_consulte_e_registre",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "agents_os_tr\u00eas_mecanismos",
+      "target": "agents_retrospect_aprenda_com_cada_entrega",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "agents_regras_de_conduta",
+      "target": "agents_1_conhecimento_antes_do_c\u00f3digo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "agents_regras_de_conduta",
+      "target": "agents_2_contrato_antes_da_implementa\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "agents_regras_de_conduta",
+      "target": "agents_3_radar_antes_da_edi\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "agents_regras_de_conduta",
+      "target": "agents_4_toda_entrega_gera_registro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "agents_regras_de_conduta",
+      "target": "agents_5_auto_auditoria_obrigat\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "agents_loop_engineering_mode",
+      "target": "agents_quando_ativar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "agents_loop_engineering_mode",
+      "target": "agents_regras_do_loop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_a_revolu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_as_seis_fases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_como_adotar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L319",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_estrutura_do_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L358",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_licen\u00e7a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_o_ciclo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_o_problema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_os_tr\u00eas_mecanismos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_\u00edndice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "readme_os_tr\u00eas_mecanismos",
+      "target": "readme_radar_vis\u00e3o_de_impacto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "readme_os_tr\u00eas_mecanismos",
+      "target": "readme_registry_mem\u00f3ria_estrutural",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "readme_os_tr\u00eas_mecanismos",
+      "target": "readme_retrospect_aprendizado_cont\u00ednuo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "readme_como_adotar",
+      "target": "readme_1_adicione_ao_seu_projeto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L246",
+      "weight": 1.0,
+      "source": "readme_como_adotar",
+      "target": "readme_2_auto_ativa\u00e7\u00e3o_opencode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "readme_como_adotar",
+      "target": "readme_3_consulte_as_refer\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L268",
+      "weight": 1.0,
+      "source": "readme_como_adotar",
+      "target": "readme_4_use_o_sistema_de_mem\u00f3ria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L276",
+      "weight": 1.0,
+      "source": "readme_como_adotar",
+      "target": "readme_5_configure_o_graphify_opcional_recomendado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L306",
+      "weight": 1.0,
+      "source": "readme_como_adotar",
+      "target": "readme_6_adapte_a_outros_agentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao",
+      "target": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_li\u00e7\u00e3o_2026_06_30_corre\u00e7\u00e3o_de_inconsist\u00eancias_na_documenta\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_li\u00e7\u00e3o_2026_06_30_corre\u00e7\u00e3o_de_inconsist\u00eancias_na_documenta\u00e7\u00e3o",
+      "target": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_1_o_que_eu_faria_diferente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_li\u00e7\u00e3o_2026_06_30_corre\u00e7\u00e3o_de_inconsist\u00eancias_na_documenta\u00e7\u00e3o",
+      "target": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_2_alguma_decis\u00e3o_foi_sub\u00f3tima",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_li\u00e7\u00e3o_2026_06_30_corre\u00e7\u00e3o_de_inconsist\u00eancias_na_documenta\u00e7\u00e3o",
+      "target": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_3_algum_padr\u00e3o_\u00fatil_emergiu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_li\u00e7\u00e3o_2026_06_30_corre\u00e7\u00e3o_de_inconsist\u00eancias_na_documenta\u00e7\u00e3o",
+      "target": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_4_o_que_deu_errado_que_poderia_ter_sido_evitado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_li\u00e7\u00e3o_2026_06_30_corre\u00e7\u00e3o_de_inconsist\u00eancias_na_documenta\u00e7\u00e3o",
+      "target": "knowledge_lessons_2026_06_30_correcao_inconsistencias_documentacao_5_o_que_devo_registrar_para_o_futuro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr",
+      "target": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "target": "knowledge_registry_template_adr_alternativas_consideradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "target": "knowledge_registry_template_adr_consequ\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "target": "knowledge_registry_template_adr_contexto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "target": "knowledge_registry_template_adr_decis\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "target": "knowledge_registry_template_adr_refer\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_adr_0001_t\u00edtulo_da_decis\u00e3o_arquitetural",
+      "target": "knowledge_registry_template_adr_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_consequ\u00eancias",
+      "target": "knowledge_registry_template_adr_negativas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_consequ\u00eancias",
+      "target": "knowledge_registry_template_adr_neutras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_consequ\u00eancias",
+      "target": "knowledge_registry_template_adr_positivas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_alternativas_consideradas",
+      "target": "knowledge_registry_template_adr_alternativa_a_nome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/_template-adr.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "knowledge_registry_template_adr_alternativas_consideradas",
+      "target": "knowledge_registry_template_adr_alternativa_b_nome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativas_consideradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_consequ\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_contexto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_decis\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_refer\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_adr_002_corre\u00e7\u00e3o_de_compatibilidade_do_plugin_graphify_no_windows",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_consequ\u00eancias",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_negativas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_consequ\u00eancias",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_positivas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativas_consideradas",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativa_a_manter_e_documentar_como_limita\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativas_consideradas",
+      "target": "knowledge_registry_adr_002_plugin_graphify_compatibilidade_windows_alternativa_b_detectar_so_e_escolher_separador",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativas_consideradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_consequ\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_contexto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_decis\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_refer\u00eancias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_adr_003_corre\u00e7\u00e3o_de_comandos_graphify_inexistentes",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_consequ\u00eancias",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_negativas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_consequ\u00eancias",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_positivas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativas_consideradas",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativa_a_contribuir_com_graphify_affected_como_nova_feature_no_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativas_consideradas",
+      "target": "knowledge_registry_adr_003_correcao_comandos_graphify_inexistentes_alternativa_b_manter_como_est\u00e1_e_documentar_como_comando_futuro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_00_manifesto",
+      "target": "kom_00_manifesto_kom_2_0_manifesto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_kom_2_0_manifesto",
+      "target": "kom_00_manifesto_a_solu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_kom_2_0_manifesto",
+      "target": "kom_00_manifesto_o_que_kom_2_0_n\u00e3o_\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_kom_2_0_manifesto",
+      "target": "kom_00_manifesto_os_seis_problemas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_kom_2_0_manifesto",
+      "target": "kom_00_manifesto_princ\u00edpios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_kom_2_0_manifesto",
+      "target": "kom_00_manifesto_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_kom_2_0_manifesto",
+      "target": "kom_00_manifesto_p\u00fablico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_princ\u00edpios",
+      "target": "kom_00_manifesto_1_conhecimento_primeiro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_princ\u00edpios",
+      "target": "kom_00_manifesto_2_gates_s\u00e3o_barreiras_n\u00e3o_sugest\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_princ\u00edpios",
+      "target": "kom_00_manifesto_3_registry_\u00e9_imut\u00e1vel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_princ\u00edpios",
+      "target": "kom_00_manifesto_4_radar_antes_do_remo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_princ\u00edpios",
+      "target": "kom_00_manifesto_5_retrospect_n\u00e3o_\u00e9_opcional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/00-manifesto.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "kom_00_manifesto_princ\u00edpios",
+      "target": "kom_00_manifesto_6_simplicidade_sobre_completude",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_01_orientacao",
+      "target": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "target": "kom_01_orientacao_anti_padr\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "target": "kom_01_orientacao_gate_de_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "target": "kom_01_orientacao_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "target": "kom_01_orientacao_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "target": "kom_01_orientacao_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_fase_1_orienta\u00e7\u00e3o",
+      "target": "kom_01_orientacao_radar_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_protocolo",
+      "target": "kom_01_orientacao_passo_1_identifique_o_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_protocolo",
+      "target": "kom_01_orientacao_passo_2_mapeie_o_dom\u00ednio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_protocolo",
+      "target": "kom_01_orientacao_passo_3_liste_as_restri\u00e7\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_protocolo",
+      "target": "kom_01_orientacao_passo_4_consulte_o_grafo_de_conhecimento_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_protocolo",
+      "target": "kom_01_orientacao_passo_5_consulte_o_registry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/01-orientacao.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "kom_01_orientacao_protocolo",
+      "target": "kom_01_orientacao_passo_6_documente",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura",
+      "target": "kom_02_arquitetura_fase_2_arquitetura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_fase_2_arquitetura",
+      "target": "kom_02_arquitetura_anti_padr\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_fase_2_arquitetura",
+      "target": "kom_02_arquitetura_gate_de_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_fase_2_arquitetura",
+      "target": "kom_02_arquitetura_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_fase_2_arquitetura",
+      "target": "kom_02_arquitetura_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_fase_2_arquitetura",
+      "target": "kom_02_arquitetura_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_fase_2_arquitetura",
+      "target": "kom_02_arquitetura_radar_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_protocolo",
+      "target": "kom_02_arquitetura_passo_1_identifique_os_limites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_protocolo",
+      "target": "kom_02_arquitetura_passo_2_defina_contratos_de_fronteira",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_protocolo",
+      "target": "kom_02_arquitetura_passo_3_analise_god_nodes_e_comunidades",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_protocolo",
+      "target": "kom_02_arquitetura_passo_4_tome_decis\u00f5es_arquiteturais_adr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_protocolo",
+      "target": "kom_02_arquitetura_passo_5_identifique_riscos_t\u00e9cnicos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/02-arquitetura.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "kom_02_arquitetura_protocolo",
+      "target": "kom_02_arquitetura_passo_6_valide_com_o_radar_e_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_03_contrato",
+      "target": "kom_03_contrato_fase_3_contrato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "kom_03_contrato_fase_3_contrato",
+      "target": "kom_03_contrato_anti_padr\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "kom_03_contrato_fase_3_contrato",
+      "target": "kom_03_contrato_gate_de_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "kom_03_contrato_fase_3_contrato",
+      "target": "kom_03_contrato_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_03_contrato_fase_3_contrato",
+      "target": "kom_03_contrato_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "kom_03_contrato_fase_3_contrato",
+      "target": "kom_03_contrato_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "kom_03_contrato_fase_3_contrato",
+      "target": "kom_03_contrato_radar_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "kom_03_contrato_protocolo",
+      "target": "kom_03_contrato_passo_1_defina_a_interface",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "kom_03_contrato_protocolo",
+      "target": "kom_03_contrato_passo_2_especifique_a_entrada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "kom_03_contrato_protocolo",
+      "target": "kom_03_contrato_passo_3_especifique_a_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "kom_03_contrato_protocolo",
+      "target": "kom_03_contrato_passo_4_especifique_os_erros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/03-contrato.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "kom_03_contrato_protocolo",
+      "target": "kom_03_contrato_passo_5_mapeie_o_impacto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_04_execucao",
+      "target": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "target": "kom_04_execucao_anti_padr\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "target": "kom_04_execucao_gate_de_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "target": "kom_04_execucao_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "target": "kom_04_execucao_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "target": "kom_04_execucao_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "kom_04_execucao_fase_4_execu\u00e7\u00e3o",
+      "target": "kom_04_execucao_radar_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "kom_04_execucao_protocolo",
+      "target": "kom_04_execucao_passo_1_prepare_a_valida\u00e7\u00e3o_primeiro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "kom_04_execucao_protocolo",
+      "target": "kom_04_execucao_passo_2_implemente_o_m\u00ednimo_necess\u00e1rio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "kom_04_execucao_protocolo",
+      "target": "kom_04_execucao_passo_3_valide_contra_o_contrato",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "kom_04_execucao_protocolo",
+      "target": "kom_04_execucao_passo_4_execute_o_radar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/04-execucao.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "kom_04_execucao_protocolo",
+      "target": "kom_04_execucao_passo_5_corrija_descobertas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_05_verificacao",
+      "target": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "target": "kom_05_verificacao_anti_padr\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "target": "kom_05_verificacao_external_verification_loop_engineering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "target": "kom_05_verificacao_gate_de_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "target": "kom_05_verificacao_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "target": "kom_05_verificacao_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "target": "kom_05_verificacao_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_fase_5_verifica\u00e7\u00e3o",
+      "target": "kom_05_verificacao_radar_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_protocolo",
+      "target": "kom_05_verificacao_passo_1_audite_com_olhar_cr\u00edtico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_protocolo",
+      "target": "kom_05_verificacao_passo_2_verifique_conformidade_com_contratos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_protocolo",
+      "target": "kom_05_verificacao_passo_3_verifique_conformidade_arquitetural",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_protocolo",
+      "target": "kom_05_verificacao_passo_4_execute_o_radar_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_protocolo",
+      "target": "kom_05_verificacao_passo_5_corrija_problemas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_external_verification_loop_engineering",
+      "target": "kom_05_verificacao_automated_pre_checks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_external_verification_loop_engineering",
+      "target": "kom_05_verificacao_ralph_gate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/05-verificacao.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "kom_05_verificacao_external_verification_loop_engineering",
+      "target": "kom_05_verificacao_regra_fundamental",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_06_registro",
+      "target": "kom_06_registro_fase_6_registro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "kom_06_registro_fase_6_registro",
+      "target": "kom_06_registro_anti_padr\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "kom_06_registro_fase_6_registro",
+      "target": "kom_06_registro_gate_de_sa\u00edda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "kom_06_registro_fase_6_registro",
+      "target": "kom_06_registro_gatilho",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_06_registro_fase_6_registro",
+      "target": "kom_06_registro_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "kom_06_registro_fase_6_registro",
+      "target": "kom_06_registro_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "kom_06_registro_fase_6_registro",
+      "target": "kom_06_registro_radar_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "kom_06_registro_protocolo",
+      "target": "kom_06_registro_passo_1_registry_decis\u00f5es_arquiteturais",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "kom_06_registro_protocolo",
+      "target": "kom_06_registro_passo_2_lessons_li\u00e7\u00f5es_aprendidas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "kom_06_registro_protocolo",
+      "target": "kom_06_registro_passo_3_patterns_padr\u00f5es_identificados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/06-registro.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "kom_06_registro_protocolo",
+      "target": "kom_06_registro_passo_4_refer\u00eancias_cruzadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_07_governanca",
+      "target": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "target": "kom_07_governanca_exce\u00e7\u00f5es_ao_ciclo_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "target": "kom_07_governanca_gatilhos_r\u00e1pidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "target": "kom_07_governanca_princ\u00edpios_da_governan\u00e7a",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "target": "kom_07_governanca_prop\u00f3sito",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "target": "kom_07_governanca_sess\u00f5es_m\u00faltiplas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "target": "kom_07_governanca_transi\u00e7\u00f5es_entre_fases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/07-governanca.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "kom_07_governanca_governan\u00e7a_auto_governan\u00e7a_entre_fases",
+      "target": "kom_07_governanca_tratamento_de_viola\u00e7\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering",
+      "target": "kom_08_loop_engineering_loop_engineering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_anti_padr\u00f5es",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_checklist_do_loop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_circuit_breakers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_contexto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_cost_controls",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_goal_conditions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_loop_cadence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_ralph_technique",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_react_no_kom_2_0",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_sub_agent_separation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_loop_engineering",
+      "target": "kom_08_loop_engineering_worktree_isolation_opcional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_sub_agent_separation",
+      "target": "kom_08_loop_engineering_como_implementar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_sub_agent_separation",
+      "target": "kom_08_loop_engineering_por_qu\u00ea",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_ralph_technique",
+      "target": "kom_08_loop_engineering_limites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_ralph_technique",
+      "target": "kom_08_loop_engineering_protocolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "kom/08-loop-engineering.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "kom_08_loop_engineering_goal_conditions",
+      "target": "kom_08_loop_engineering_goal_formal",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -284,5 +4850,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "50f92188f9437f0d9f4d2daa70839ee2e71b3849"
+  "built_at_commit": "29807e95429f0d8b85fd17e552aaa3cbc757f82c"
 }

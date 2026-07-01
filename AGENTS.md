@@ -98,11 +98,24 @@ Antes de considerar concluído, faça a Retrospect. Corrija antes de entregar.
 
 ---
 
+### 🔍 Verificação de Instalação
+
+Na primeira sessão (ou quando o usuário pedir), execute `kom-check.ps1` e mostre o resultado completo com a barra de progresso, o percentual e os itens com falha. Não apenas diga "está funcionando" — prove com o script.
+
+Use este comando:
+```powershell
+powershell -ExecutionPolicy Bypass -File kom-check.ps1
+```
+
+Se houver falhas, ofereça-se para corrigir cada uma automaticamente.
+
+---
+
 ## ⚡ Gatilhos Rápidos
 
 | Situação | Ação |
 |---|---|
-| Início de sessão | Exiba `WELCOME.md` (1a vez) + Skill `kom-graphify` + `/graphify .` + Carregue skills KOM + Consulte Registry + Lessons |
+| Início de sessão | Exiba `WELCOME.md` (1a vez) + Execute `kom-check.ps1` e mostre o resultado + Skill `kom-graphify` + `/graphify .` + Carregue skills KOM + Consulte Registry + Lessons |
 | Nova tarefa | Skill `kom-cycle` + Fase 1 (Orientação) |
 | Alterar arquivo existente | Skill `kom-radar` |
 | Dúvida arquitetural | Skill `kom-registry` |

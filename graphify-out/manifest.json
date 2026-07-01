@@ -1,12 +1,127 @@
 {
   ".opencode/opencode.json": {
-    "mtime": 1782860051.858276,
-    "ast_hash": "f2ae21510d07365eb2bce8159272c7a0",
-    "semantic_hash": "f2ae21510d07365eb2bce8159272c7a0"
+    "mtime": 1782866009.109619,
+    "ast_hash": "1efe24ecf938911d4f23e4b1c6ec91f7",
+    "semantic_hash": ""
   },
   ".opencode/plugins/graphify.js": {
-    "mtime": 1782860051.8572764,
-    "ast_hash": "111287aed37970b605d3ab422d1c93ec",
-    "semantic_hash": "111287aed37970b605d3ab422d1c93ec"
+    "mtime": 1782866402.2434123,
+    "ast_hash": "bb9669d609f6192094109750ccdffa3a",
+    "semantic_hash": ""
+  },
+  ".opencode/skills/kom-cycle/SKILL.md": {
+    "mtime": 1782836878.603398,
+    "ast_hash": "5f78a8c445d9375e4a62a3756dfb6ff6",
+    "semantic_hash": ""
+  },
+  ".opencode/skills/kom-graphify/SKILL.md": {
+    "mtime": 1782867398.3117256,
+    "ast_hash": "3a67c43738f0d8bf8567dc167f25bb2e",
+    "semantic_hash": ""
+  },
+  ".opencode/skills/kom-loop/SKILL.md": {
+    "mtime": 1782836882.9951994,
+    "ast_hash": "f0a159faec604103402b57ea4a8c0036",
+    "semantic_hash": ""
+  },
+  ".opencode/skills/kom-radar/SKILL.md": {
+    "mtime": 1782836231.6168873,
+    "ast_hash": "4930eca8a2ad0f0950bdd73fd4c3ca09",
+    "semantic_hash": ""
+  },
+  ".opencode/skills/kom-registry/SKILL.md": {
+    "mtime": 1782836233.2750714,
+    "ast_hash": "d6b4090e6b053d1b5ecf258838086142",
+    "semantic_hash": ""
+  },
+  ".opencode/skills/kom-retrospect/SKILL.md": {
+    "mtime": 1782836234.4257193,
+    "ast_hash": "1e09a3af3a500c87ad0b439832510700",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1782867672.4985607,
+    "ast_hash": "22b4e4e4f210e3c0b8e866fdd6004001",
+    "semantic_hash": ""
+  },
+  "Implementa\u00e7oes.txt": {
+    "mtime": 1782858832.9965532,
+    "ast_hash": "862b7704b3687a4bd7ea21c1f0dfd4fc",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1782867395.9356177,
+    "ast_hash": "5e6ac2d5a9c75e070209e0d2be32424b",
+    "semantic_hash": ""
+  },
+  "WELCOME.md": {
+    "mtime": 1782867658.0755513,
+    "ast_hash": "96fe0563cb7fb1f12d8354f4e57906d4",
+    "semantic_hash": ""
+  },
+  "knowledge/lessons/2026-06-30-correcao-inconsistencias-documentacao.md": {
+    "mtime": 1782867032.8316476,
+    "ast_hash": "2e4de4a5eef5dc13b26ff772f1911f12",
+    "semantic_hash": ""
+  },
+  "knowledge/registry/_template-adr.md": {
+    "mtime": 1782864759.8037524,
+    "ast_hash": "ce085297893ccdcf6753d1fa0d25e1f4",
+    "semantic_hash": ""
+  },
+  "knowledge/registry/adr-002-plugin-graphify-compatibilidade-windows.md": {
+    "mtime": 1782866417.7481427,
+    "ast_hash": "b836c2c50a767de734f94b6afc159235",
+    "semantic_hash": ""
+  },
+  "knowledge/registry/adr-003-correcao-comandos-graphify-inexistentes.md": {
+    "mtime": 1782867016.4711912,
+    "ast_hash": "c9e5a4030cac51a308772c98361384d0",
+    "semantic_hash": ""
+  },
+  "kom/00-manifesto.md": {
+    "mtime": 1782835569.94402,
+    "ast_hash": "e02b74b5acaaae5346157246f40ada95",
+    "semantic_hash": ""
+  },
+  "kom/01-orientacao.md": {
+    "mtime": 1782860127.8336973,
+    "ast_hash": "9af1053c64db248facd83eba88f49c6b",
+    "semantic_hash": ""
+  },
+  "kom/02-arquitetura.md": {
+    "mtime": 1782866967.71706,
+    "ast_hash": "3a318a56321eac5ee506c689ef79cee8",
+    "semantic_hash": ""
+  },
+  "kom/03-contrato.md": {
+    "mtime": 1782835583.2695322,
+    "ast_hash": "4981fde7c54481a4fdf8f4ff6549a523",
+    "semantic_hash": ""
+  },
+  "kom/04-execucao.md": {
+    "mtime": 1782835590.8532724,
+    "ast_hash": "d4fe67d4cd37ffcce4336d79c6258efb",
+    "semantic_hash": ""
+  },
+  "kom/05-verificacao.md": {
+    "mtime": 1782866968.6122754,
+    "ast_hash": "e4cadc2cccbe8bbefcafb245f92edf6f",
+    "semantic_hash": ""
+  },
+  "kom/06-registro.md": {
+    "mtime": 1782835600.1735284,
+    "ast_hash": "b4de0b5f7d452bd5037f57125d052573",
+    "semantic_hash": ""
+  },
+  "kom/07-governanca.md": {
+    "mtime": 1782835606.3270032,
+    "ast_hash": "b52df6ae2aecaeb5265fbfc472e6f918",
+    "semantic_hash": ""
+  },
+  "kom/08-loop-engineering.md": {
+    "mtime": 1782866969.0682943,
+    "ast_hash": "cfbd33e27f123c171a06a537e9b1a402",
+    "semantic_hash": ""
   }
 }
