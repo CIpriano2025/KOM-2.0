@@ -1,0 +1,112 @@
+{
+  "communities": {
+    "0": [
+      "agents_md",
+      "knowledge_registry",
+      "kom_radar",
+      "kom_registry"
+    ],
+    "1": [
+      "kom_cycle",
+      "kom_graphify",
+      "kom_loop_engineering"
+    ],
+    "2": [
+      "knowledge_lessons",
+      "kom_retrospect"
+    ],
+    "3": [
+      "kom_core",
+      "kom_mcp"
+    ],
+    "4": [
+      "opencode_plugins_graphify",
+      "opencode_plugins_graphify_graphifyplugin"
+    ],
+    "5": [
+      "implementacoes_txt"
+    ],
+    "6": [
+      "readme_md"
+    ]
+  },
+  "cohesion": {
+    "0": 0.5,
+    "1": 0.6666666666666666,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 1.0
+  },
+  "gods": [
+    {
+      "id": "kom_cycle",
+      "label": "KOM Cycle",
+      "degree": 3
+    },
+    {
+      "id": "kom_radar",
+      "label": "KOM Radar",
+      "degree": 2
+    },
+    {
+      "id": "kom_retrospect",
+      "label": "KOM Retrospect",
+      "degree": 2
+    },
+    {
+      "id": "kom_registry",
+      "label": "KOM Registry",
+      "degree": 1
+    },
+    {
+      "id": "kom_loop_engineering",
+      "label": "Loop Engineering",
+      "degree": 1
+    },
+    {
+      "id": "kom_graphify",
+      "label": "Graphify Integration",
+      "degree": 1
+    },
+    {
+      "id": "readme_md",
+      "label": "KOM 2.0 README",
+      "degree": 0
+    },
+    {
+      "id": "implementacoes_txt",
+      "label": "RFC-001 Architecture",
+      "degree": 0
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Graphify Integration",
+      "target": "KOM Cycle",
+      "source_files": [
+        ".opencode/skills/kom-graphify/SKILL.md",
+        "kom/01-orientacao.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "Loop Engineering",
+      "target": "KOM Cycle",
+      "source_files": [
+        "kom/08-loop-engineering.md",
+        "kom/01-orientacao.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 18695,
+    "output": 1700
+  }
+}

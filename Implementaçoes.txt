@@ -1,0 +1,492 @@
+Perfeito. Eu faria isso como uma **RFC (Request for Comments)**, porque ela explica **o que deve ser implementado**, **por que** e **como**, sem engessar a implementação. Ela serve como guia para qualquer IA (OpenCode, Cursor, Claude Code, Gemini CLI etc.).
+
+---
+
+# RFC-001 — Arquitetura do KOM 2.0
+
+## Objetivo
+
+Transformar o KOM 2.0 em uma plataforma de engenharia de software para IA, mantendo sua essência:
+
+> **"Qualquer IA deve conseguir desenvolver projetos complexos sem se perder, recebendo apenas o contexto necessário no momento certo."**
+
+O KOM não substitui a IA.
+
+Ele organiza, prepara, valida e preserva o conhecimento do projeto.
+
+---
+
+# Princípios
+
+## 1. Simplicidade
+
+Cada módulo possui apenas uma responsabilidade.
+
+Nenhum módulo deve conhecer detalhes internos dos outros.
+
+---
+
+## 2. Independência de IA
+
+O KOM deve funcionar com qualquer IA compatível com MCP.
+
+Exemplos:
+
+* OpenCode
+* Cursor
+* Claude Code
+* Gemini CLI
+* VS Code
+* Agentes próprios
+
+---
+
+## 3. Independência de Banco
+
+O KOM nunca deve depender diretamente do OpenSearch.
+
+Toda comunicação deve ocorrer através de uma interface de memória.
+
+Isso permitirá substituir posteriormente por:
+
+* Elasticsearch
+* PostgreSQL
+* Neo4j
+* Qdrant
+* Weaviate
+* Outros
+
+sem alterar a metodologia.
+
+---
+
+## 4. Contexto Mínimo
+
+A IA nunca deve receber o projeto inteiro.
+
+Ela deve receber apenas:
+
+* contexto relevante
+* documentação relevante
+* decisões relevantes
+* arquivos relevantes
+* testes relevantes
+
+---
+
+## 5. Conhecimento Persistente
+
+Todo conhecimento produzido deve ser reutilizado futuramente.
+
+---
+
+# Nova Arquitetura
+
+```text
+                 IA / IDE
+
+                     │
+
+                     ▼
+
+              KOM MCP Server
+
+                     │
+
+                     ▼
+
+                 KOM Core
+
+     ┌──────────┬──────────┬──────────┐
+
+     ▼          ▼          ▼          ▼
+
+  Spec      Planner     Context    Executor
+
+                               │
+
+                               ▼
+
+                         Validator
+
+                               │
+
+                               ▼
+
+                           Review
+
+                               │
+
+                               ▼
+
+                          Knowledge
+
+                               │
+
+                               ▼
+
+                            Memory
+
+                               │
+
+                               ▼
+
+                     Memory Provider
+
+                               │
+
+      ┌────────────────────────┴──────────────────────┐
+
+      ▼                                               ▼
+
+ OpenSearch                                   Elasticsearch
+```
+
+---
+
+# Módulos
+
+## KOM Core
+
+Responsável pela orquestração da metodologia.
+
+Responsabilidades:
+
+* iniciar fluxo
+* chamar módulos
+* controlar ordem
+* controlar estado
+
+Não possui conhecimento sobre banco de dados.
+
+---
+
+## KOM MCP
+
+Única interface entre IA e KOM.
+
+Responsabilidades:
+
+* expor ferramentas MCP
+* validar parâmetros
+* encaminhar chamadas ao Core
+* devolver respostas
+
+Nunca implementa regras da metodologia.
+
+---
+
+## KOM Spec
+
+Gerencia:
+
+* especificações
+* contratos
+* requisitos
+* critérios de aceite
+
+---
+
+## KOM Planner
+
+Transforma objetivos em pequenas tarefas.
+
+Responsável por:
+
+* planejamento
+* dependências
+* sequência de execução
+
+---
+
+## KOM Context
+
+Seleciona o menor contexto possível.
+
+Nunca envia arquivos desnecessários.
+
+---
+
+## KOM Executor
+
+Executa:
+
+* código
+* comandos
+* scripts
+* integrações
+
+---
+
+## KOM Validator
+
+Valida:
+
+* Spec
+* arquitetura
+* qualidade
+* testes
+
+---
+
+## KOM Review
+
+Após conclusão:
+
+* registra aprendizados
+* identifica alterações
+* envia informações para o Knowledge
+
+---
+
+## KOM Knowledge (NOVO)
+
+Responsável pelo conhecimento produzido.
+
+Funções:
+
+* manter README atualizado
+* gerar documentação
+* gerar ADR
+* gerar documentação da arquitetura
+* gerar documentação da API
+* gerar changelog
+* gerar diagramas
+* atualizar documentação automaticamente
+
+O objetivo não é gerar documentos.
+
+É transformar conhecimento em documentação viva.
+
+---
+
+## KOM Memory
+
+Gerencia o conhecimento persistente.
+
+Responsável por:
+
+* buscar
+* indexar
+* atualizar
+* localizar informações
+
+Não conhece OpenSearch.
+
+Utiliza apenas o Memory Provider.
+
+---
+
+## Memory Provider
+
+Interface responsável pelo armazenamento.
+
+Primeira implementação:
+
+* OpenSearch
+
+Implementações futuras:
+
+* Elasticsearch
+* PostgreSQL
+* Neo4j
+* Qdrant
+* Weaviate
+
+---
+
+# Fluxo de Execução
+
+```text
+Usuário
+
+↓
+
+IA
+
+↓
+
+KOM MCP
+
+↓
+
+KOM Core
+
+↓
+
+Planner
+
+↓
+
+Context
+
+↓
+
+Memory
+
+↓
+
+Executor
+
+↓
+
+Validator
+
+↓
+
+Review
+
+↓
+
+Knowledge
+
+↓
+
+Memory Update
+
+↓
+
+Resposta
+```
+
+---
+
+# Fluxo de Conhecimento
+
+```text
+Código
+
+↓
+
+Review
+
+↓
+
+Knowledge
+
+↓
+
+Documentação
+
+↓
+
+Memory
+
+↓
+
+OpenSearch
+```
+
+---
+
+# Objetivos do Knowledge
+
+Todo desenvolvimento deve atualizar automaticamente:
+
+* README
+* Architecture.md
+* API.md
+* ADRs
+* Changelog
+* Diagramas
+* Guias
+
+Sempre que possível.
+
+---
+
+# Objetivos do Memory
+
+Responder perguntas como:
+
+* Onde está esta feature?
+* Qual arquivo implementa isto?
+* Qual decisão arquitetural levou a isso?
+* Quais testes existem?
+* Quais módulos dependem deste serviço?
+
+Sem necessidade de analisar novamente todo o projeto.
+
+---
+
+# Ferramentas MCP (Versão Inicial)
+
+Expor apenas poucas ferramentas.
+
+```
+kom.run()
+
+kom.context()
+
+kom.search()
+
+kom.validate()
+
+kom.review()
+```
+
+Evitar dezenas de ferramentas.
+
+O KOM deve esconder sua complexidade.
+
+---
+
+# Objetivos NÃO contemplados nesta versão
+
+Não implementar nesta etapa:
+
+* GraphRAG
+* Multiagentes
+* Knowledge Graph
+* Aprendizado automático
+* Memória distribuída
+* Busca híbrida
+* Embeddings obrigatórios
+
+Esses recursos poderão ser adicionados futuramente sem alterar a arquitetura.
+
+---
+
+# Estrutura sugerida do repositório
+
+```text
+KOM-2.0/
+
+docs/
+templates/
+examples/
+
+kom-core/
+kom-mcp/
+kom-memory/
+kom-knowledge/
+kom-indexer/
+
+roadmap/
+```
+
+---
+
+# Definição Oficial do KOM 2.0
+
+> **KOM 2.0 é uma plataforma de engenharia de software orientada por metodologia, construída para permitir que qualquer IA desenvolva projetos complexos de forma consistente, utilizando apenas o contexto necessário, preservando conhecimento e mantendo documentação viva.**
+
+---
+
+## Minha recomendação antes de implementar
+
+Eu faria **mais uma mudança conceitual** no repositório antes de escrever qualquer código: separar claramente **Metodologia** de **Implementação**.
+
+Por exemplo:
+
+```text
+KOM-2.0
+│
+├── methodology/   ← filosofia, princípios, fluxo e especificações
+├── implementation/← código do Core, MCP, Memory, Knowledge etc.
+├── docs/
+├── templates/
+└── examples/
+```
+
+Essa separação é importante porque a **metodologia é o ativo principal do KOM**. O código pode evoluir, mudar de linguagem ou até ser reescrito, mas a metodologia permanece estável e reutilizável. Isso também facilita que outras equipes implementem o KOM em tecnologias diferentes sem depender da implementação original.

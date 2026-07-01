@@ -269,7 +269,33 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 | `knowledge/lessons/` | Lições aprendidas | Agente |
 | `knowledge/patterns/` | Padrões identificados | Agente |
 
-### 5. Adapte a outros agentes
+### 5. Configure o Graphify (opcional, recomendado)
+
+Graphify constrói um grafo de conhecimento do seu codebase para consultas rápidas.
+
+```bash
+# Instalar
+pip install graphifyy
+
+# Configurar sua API key (uma das opções abaixo)
+export GEMINI_API_KEY="sua-chave-aqui"      # Gemini (gratuito)
+export OPENAI_API_KEY="sua-chave-aqui"      # OpenAI
+export ANTHROPIC_API_KEY="sua-chave-aqui"   # Claude
+
+# Buildar o grafo
+graphify .
+
+# Após mudanças no código (AST-only, sem custo):
+graphify update .
+```
+
+**API keys gratuitas:**
+- **Gemini:** https://aistudio.google.com/apikey (sem cartão de crédito)
+- **DeepSeek:** alternativa econômica
+
+Sem API key, o `graphify update .` funciona para arquivos de código (AST-only, zero custo).
+
+### 6. Adapte a outros agentes
 
 | Agente | Como usar |
 |---|---|
@@ -308,9 +334,14 @@ O diretório `kom/` contém o protocolo detalhado de cada fase com:
 │   └── 08-loop-engineering.md Loop Engineering (ReAct, Ralph, sub-agents)
 │
 ├── knowledge/                 Base de conhecimento do projeto
-│   ├── registry/              Decisões arquiteturais (imutável)
+│   ├── registry/              Decisões arquiteturais (ADR + MADR template)
 │   ├── lessons/               Lições aprendidas (evolutivo)
 │   └── patterns/              Padrões identificados (consultivo)
+│
+├── graphify-out/              Grafo de conhecimento (Graphify)
+│   ├── graph.json             Grafo queryável
+│   ├── GRAPH_REPORT.md        Relatório de comunidades e god nodes
+│   └── graph.html             Visualização interativa
 │
 └── Projeto Kom 2.0/           Saída dos projetos desenvolvidos com KOM 2.0
 ```

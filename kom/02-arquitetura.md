@@ -29,21 +29,27 @@ Para cada ponto de integração:
 - Protocolo de comunicação
 - Garantias (disponibilidade, consistência, latência)
 
-### Passo 3: Tome Decisões Arquiteturais
-Para cada decisão significativa:
-- Documente o contexto
-- Liste alternativas consideradas
-- Explique o motivo da escolha
+### Passo 3: Analise God Nodes e Comunidades
+- Use `graphify query "god nodes"` para identificar módulos centrais
+- Use `graphify query "comunidades"` para identificar domínios
+- Decisões arquiteturais devem respeitar os limites das comunidades detectadas
+
+### Passo 4: Tome Decisões Arquiteturais (ADR)
+Para cada decisão significativa, crie um **ADR (Architecture Decision Record)**:
+- Use o template MADR em `knowledge/registry/_template-adr.md`
+- Nomeie como `knowledge/registry/adr-{numero}-{titulo}.md`
+- Inclua: contexto, decisão, consequências, alternativas consideradas
 - Registre no Registry (`knowledge/registry/`)
 
-### Passo 4: Identifique Riscos Técnicos
+### Passo 5: Identifique Riscos Técnicos
 - O que pode dar errado?
 - Quais suposições estamos fazendo?
 - O que precisa ser validado cedo?
 
-### Passo 5: Valide com o Radar
+### Passo 6: Valide com o Radar e Graphify
 - As decisões impactam outras áreas?
 - Existem dependências não consideradas?
+- Use `graphify affected "<módulo>"` para validar impacto das decisões
 
 ---
 

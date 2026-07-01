@@ -95,7 +95,7 @@ Antes de considerar concluído, faça a Retrospect. Corrija antes de entregar.
 
 | Situação | Ação |
 |---|---|
-| Início de sessão | Carregue skills KOM + Consulte Registry + Lessons |
+| Início de sessão | `/graphify .` + Carregue skills KOM + Consulte Registry + Lessons |
 | Nova tarefa | Skill `kom-cycle` + Fase 1 (Orientação) |
 | Alterar arquivo existente | Skill `kom-radar` |
 | Dúvida arquitetural | Skill `kom-registry` |
@@ -176,3 +176,16 @@ Se você identificou que pulou uma fase:
 > Se você está prestes a pular uma regra, pergunte-se:
 > *"Estou pulando porque é desnecessário ou porque é mais fácil?"*
 > Se for mais fácil, **não pule.**
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
+
+Rules:
+- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).

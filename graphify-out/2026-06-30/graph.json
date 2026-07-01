@@ -1,0 +1,273 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "kom_three_mechanisms",
+        "label": "The Three Mechanisms",
+        "nodes": [
+          "kom_registry",
+          "kom_radar",
+          "kom_retrospect"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "README.md"
+      },
+      {
+        "id": "kom_six_phases",
+        "label": "KOM Six Phases",
+        "nodes": [
+          "kom_cycle",
+          "kom_loop_engineering",
+          "kom_graphify"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "README.md"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "graphify.js",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "opencode_plugins_graphify",
+      "community": 4,
+      "norm_label": "graphify.js"
+    },
+    {
+      "label": "GraphifyPlugin()",
+      "file_type": "code",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "opencode_plugins_graphify_graphifyplugin",
+      "community": 4,
+      "norm_label": "graphifyplugin()"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "id": "agents_md",
+      "community": 0,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "KOM 2.0 README",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "readme_md",
+      "community": 6,
+      "norm_label": "kom 2.0 readme"
+    },
+    {
+      "label": "RFC-001 Architecture",
+      "file_type": "document",
+      "source_file": "Implementa\u00e7oes.txt",
+      "id": "implementacoes_txt",
+      "community": 5,
+      "norm_label": "rfc-001 architecture"
+    },
+    {
+      "label": "KOM Cycle",
+      "file_type": "concept",
+      "source_file": "kom/01-orientacao.md",
+      "id": "kom_cycle",
+      "community": 1,
+      "norm_label": "kom cycle"
+    },
+    {
+      "label": "KOM Radar",
+      "file_type": "concept",
+      "source_file": ".opencode/skills/kom-radar/SKILL.md",
+      "id": "kom_radar",
+      "community": 0,
+      "norm_label": "kom radar"
+    },
+    {
+      "label": "KOM Registry",
+      "file_type": "concept",
+      "source_file": ".opencode/skills/kom-registry/SKILL.md",
+      "id": "kom_registry",
+      "community": 0,
+      "norm_label": "kom registry"
+    },
+    {
+      "label": "KOM Retrospect",
+      "file_type": "concept",
+      "source_file": ".opencode/skills/kom-retrospect/SKILL.md",
+      "id": "kom_retrospect",
+      "community": 2,
+      "norm_label": "kom retrospect"
+    },
+    {
+      "label": "Loop Engineering",
+      "file_type": "concept",
+      "source_file": "kom/08-loop-engineering.md",
+      "id": "kom_loop_engineering",
+      "community": 1,
+      "norm_label": "loop engineering"
+    },
+    {
+      "label": "Graphify Integration",
+      "file_type": "concept",
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "id": "kom_graphify",
+      "community": 1,
+      "norm_label": "graphify integration"
+    },
+    {
+      "label": "Knowledge Registry",
+      "file_type": "rationale",
+      "source_file": "knowledge/registry/",
+      "id": "knowledge_registry",
+      "community": 0,
+      "norm_label": "knowledge registry"
+    },
+    {
+      "label": "Knowledge Lessons",
+      "file_type": "rationale",
+      "source_file": "knowledge/lessons/",
+      "id": "knowledge_lessons",
+      "community": 2,
+      "norm_label": "knowledge lessons"
+    },
+    {
+      "label": "KOM Core",
+      "file_type": "code",
+      "source_file": "kom-core/",
+      "id": "kom_core",
+      "community": 3,
+      "norm_label": "kom core"
+    },
+    {
+      "label": "KOM MCP Server",
+      "file_type": "code",
+      "source_file": "kom-mcp/",
+      "id": "kom_mcp",
+      "community": 3,
+      "norm_label": "kom mcp server"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".opencode/plugins/graphify.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "opencode_plugins_graphify",
+      "target": "opencode_plugins_graphify_graphifyplugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source": "agents_md",
+      "target": "kom_cycle"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source": "agents_md",
+      "target": "kom_radar"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source": "agents_md",
+      "target": "kom_registry"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source": "agents_md",
+      "target": "kom_retrospect"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "kom/08-loop-engineering.md",
+      "source": "kom_loop_engineering",
+      "target": "kom_cycle"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/kom-graphify/SKILL.md",
+      "source": "kom_graphify",
+      "target": "kom_cycle"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/kom-radar/SKILL.md",
+      "source": "kom_radar",
+      "target": "knowledge_registry"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".opencode/skills/kom-retrospect/SKILL.md",
+      "source": "kom_retrospect",
+      "target": "knowledge_lessons"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "Implementa\u00e7oes.txt",
+      "source": "kom_mcp",
+      "target": "kom_core"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "kom_three_mechanisms",
+      "label": "The Three Mechanisms",
+      "nodes": [
+        "kom_registry",
+        "kom_radar",
+        "kom_retrospect"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md"
+    },
+    {
+      "id": "kom_six_phases",
+      "label": "KOM Six Phases",
+      "nodes": [
+        "kom_cycle",
+        "kom_loop_engineering",
+        "kom_graphify"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md"
+    }
+  ],
+  "built_at_commit": "50f92188f9437f0d9f4d2daa70839ee2e71b3849"
+}

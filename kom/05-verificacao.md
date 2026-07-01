@@ -72,6 +72,8 @@ Antes da verificação por sub-agente independente, execute:
 - [ ] Lint / type-check / análise estática
 - [ ] Verificação de contrato (entrada/saída/erros batem com a Fase 3?)
 - [ ] Varredura de segurança básica
+- [ ] `graphify affected "<arquivo-modificado>"` — análise de impacto colateral
+- [ ] `graphify query "quebras potenciais"` — verificar dependências não consideradas
 
 ---
 
@@ -82,6 +84,8 @@ Antes da verificação por sub-agente independente, execute:
 - [ ] Conformidade arquitetural confirmada
 - [ ] Radar executado sobre todos os arquivos alterados
 - [ ] Problemas encontrados foram corrigidos ou documentados
+- [ ] **Contract Tests:** implementação valida contratos da Fase 3 (entrada/saída/erros)
+- [ ] **Contract Tests:** testes automatizados comprovam conformidade com o contrato
 
 ---
 

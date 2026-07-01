@@ -36,12 +36,17 @@ Esta fase inicia quando:
 - **Negócio**: orçamento, prazo, compliance
 - **Equipe**: quem mantém, quem conhece o domínio
 
-### Passo 4: Consulte o Registry
+### Passo 4: Consulte o Grafo de Conhecimento (Graphify)
+- Se `graphify-out/GRAPH_REPORT.md` existir, carregue-o para entender a estrutura
+- Use `graphify query "estrutura geral"` para contexto mínimo
+- Identifique god nodes (módulos centrais) e comunidades (domínios)
+
+### Passo 5: Consulte o Registry
 - Existem decisões anteriores que afetam esta área?
 - Existem lições em `knowledge/lessons/`?
 - Existem padrões em `knowledge/patterns/`?
 
-### Passo 5: Documente
+### Passo 6: Documente
 - Escreva um documento de orientação claro e objetivo
 - Inclua: propósito, domínio, restrições, referências
 

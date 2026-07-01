@@ -1,0 +1,1 @@
+{"nodes": [{"id": "kom_graphify", "label": "Graphify Integration", "file_type": "concept", "source_file": ".opencode/skills/kom-graphify/SKILL.md"}], "edges": [{"source": "kom_graphify", "target": "kom_cycle", "relation": "conceptually_related_to", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".opencode/skills/kom-graphify/SKILL.md"}], "hyperedges": []}
